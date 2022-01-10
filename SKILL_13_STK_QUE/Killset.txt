@@ -1,0 +1,13 @@
+ASSIGNMENT 02
+
+
+1.	Write a C program to implement stack using array.
+2.	Write down a C program to implement multiple stacks.
+3.	Write a C program to input two Stacks and compare their contents.
+4.	Implement Queue operations using Python language.
+5.	Implement Stack operations using Python language.
+6.	Write a C Program to evaluate a Postfix expression.
+7.	Write down a C program to implement a priority queue.
+8.	Write down a C program to implement the infix to postfix evaluation.
+9.	Write a C program to implement input and output restricted dequeues.
+10.	Write down a C- program to implement the push () operation of the stack and return the top of it.

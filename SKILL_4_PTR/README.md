@@ -1,0 +1,118 @@
+1. Write a program to find the sum and average of n number using pointer.[Solution](1_Sum_and_avg.c)
+
+   Input: Enter the size of n=5
+   Enter 5 number: 6, 4, 8, 10, and 12
+
+   Sample Output 0
+   Sum= 30; Average=6
+
+2. Write a program to swap two pointer values with and without using temporary/third variable.[Solution](2_Swap.c)
+
+   Sample Input 0
+   10, 23
+
+   Sample Output 0
+   23, 10
+
+3. Write a program in C to store n elements in an array and print the elements using pointer.[Solution](3_Array.c)
+
+   Sample Input 0
+   The number of elements to store in the array : 5
+   5 number of elements in the array :
+   element - 0 : 8
+   element - 1 : 17
+   element - 2 : 21
+   element - 3 : 3
+   element - 4 : 29
+
+   Sample Output 0
+   The elements you entered are:
+   element - 0 : 8
+   element - 1 : 17
+   element - 2 : 21
+   element - 3 : 3
+   element - 4 : 29
+
+4. Write a program in C to find the factorial of a given number using pointers [Solution](4_Fact_pointer.c)
+
+   Sample Input 0
+   ENTER THE NUMBER:5
+
+   Sample Output 0
+   FACTORIAL IS 120
+
+5. Write a program in C to sort an array using Pointer [Solution](5_Sort_pointer.c)
+
+   Sample Input 0
+   Input the number of elements to store in the array : 5
+   Input 5 number of elements in the array :
+   element - 1 : 25
+   element - 2 : 45
+   element - 3 : 89
+   element - 4 : 15
+   element - 5 : 82
+
+   Sample Output 0
+   The elements in the array after sorting:  
+   element - 1 : 15  
+   element - 2 : 25  
+   element - 3 : 45  
+   element - 4 : 82  
+   element - 5 : 89
+
+6. Write a program in C to compute the sum of all elements in an array using pointers. [Solution](6_Sum_arr.c)
+
+   Sample Input 0
+   The number of elements to store in the array (max 10) : 5
+   5 number of elements in the array :
+   element - 1 : 2
+   element - 2 : 3
+   element - 3 : 4
+   element - 4 : 5
+   element - 5 : 6
+
+   Sample Output 0
+   The sum of array is: 20
+
+7. Write a program in C to find the maximum of two numbers using a pointer [Solution](7_Max.c)
+
+   Sample Input 0
+   First Number: 26
+   Second Number: 14
+
+   Sample Output 0
+   26 is the maximum number
+
+8. Write a program in C to calculate the length of the string using pointer.(Without library function) [Solution](8_Strlen.c)
+
+   Sample Input 0
+   datastructure
+
+   Sample Output 0
+   Length of String is 13
+
+9. Write a program to count the number of vowels and consonants in a string[Solution](9_Vow_Cons.c)
+
+   Sample Input 0
+   University
+
+   Sample Output 0
+   No. of Vowels : 4
+   No. of Consonants: 6
+
+10. Write a program to concatenate two strings without using Library function [Solution](10_Concat.c)
+
+    Sample Input 0
+    String 1 : Hello
+    String 2 : World
+
+    Sample Output 0
+    Hello World
+
+11. Write a Program to reverse a string without using Library function. [Solution](11_Revstr.c)
+
+    Sample Input 0
+    Kolkata
+
+    Sample Output 0
+    ataklok

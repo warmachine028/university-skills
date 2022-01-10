@@ -1,0 +1,65 @@
+# ASSIGNMENT 8: STACK
+
+1. Write a C program for array implementation of Stack. [Solution](1_STK_array.c)
+   i. Push
+   ii. Pop (Dislpay "Stack is Empty" if stack is empty).
+   iii. Display Stack Top (Dislpay "Stack is Empty" if stack is empty).
+   iv. Exit
+   Input Format
+   First line contains the Menu followed Input for given menu.
+   Constraints
+   NA
+   Output Format
+   Print the output based on the Menu
+   Sample Input 0
+   1
+   15
+   1
+   20
+   1
+   35
+   3
+   2
+   3
+   2
+   3
+   2
+   3
+   4
+   Sample Output 0
+   ->15
+   ->20
+   ->35
+   Stack is Empty
+
+2. Write a C Program to implement Stack using Linked List with Following Menu. [Solution](2_STK_LinkedList.c)
+   i. Push
+   ii. Pop (Dislpay "Stack is Empty" if stack is empty).
+   iii. Display Stack Top (Dislpay "Stack is Empty" if stack is empty).
+   iv. Exit
+   Input Format
+   First line contains the Menu followed Input for given menu.
+   Constraints
+   NA
+   Output Format
+   Print the output based on the Menu
+   Sample Input 0
+   1
+   10
+   1
+   20
+   1
+   30
+   3
+   2
+   3
+   2
+   3
+   2
+   3
+   4
+   Sample Output 0
+   ->30
+   ->20
+   ->10
+   Stack is Empty
