@@ -18,4 +18,4 @@
 |  12   | [Searching n Sorting](SKILL_12_SORT/) |  interpoln(p), classes, hep(p), qck(c)  |      13       |
 |  13   | [Stacks n Queues](SKILL_13_STK_QUE/)  |  C, 2stk, posfx_eval, IRDq, ORDq, pQue  |      10       |
 |  14   |   [Python One Liners](SKILL_14_PY/)   |  dict compr,lst compr, capi, lst addn   |      28       |
-|       |                                       |                 TOTAL:                  |      161      |
+|       |                                       |                 TOTAL:                  |     161       |

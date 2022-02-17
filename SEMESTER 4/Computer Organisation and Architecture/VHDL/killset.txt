@@ -1,0 +1,14 @@
+ƒComputer Organization & Architecture Laboratory
+
+Subject Code: PCC-CS492
+ASSIGNMENT – I
+Submission Date: 09.03.2022
+
+1. Write the VHDL programs to implement all the basic gates: i) OR, ii) AND, iii) NOT.
+2. Write the VHDL programs to implement universal gates: i) NAND, ii) NOR.
+3. Write the VHDL programs to implement i) XOR, ii) XNOR.
+4. Design i) Half adder and ii) Full adder using VHDL.
+5. Design i) Half subtractor and ii) Full subtractor using VHDL.
+
+Note: Write the program in A4 page and draw the simulation result for every individual
+program. Submit the assignment in chann el file.
