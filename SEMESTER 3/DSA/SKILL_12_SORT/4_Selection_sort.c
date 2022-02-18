@@ -20,8 +20,6 @@ void selection_sort(int array[], int n)
         for (int j = position + 1; j < n; j++)
             if (value > array[j])
                 position = j;
-        
-        print(array, n);
 
         // Swapping places
         int temp = array[position];
