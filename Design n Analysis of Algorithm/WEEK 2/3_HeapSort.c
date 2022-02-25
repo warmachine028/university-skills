@@ -15,6 +15,6 @@ void heappop()
 {
 }
 
-void heapSort() {
-
+void heapSort()
+{
 }
