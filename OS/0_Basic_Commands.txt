@@ -20,3 +20,6 @@ bc                  # basic calculator instance
 - obase=...         # output base -> same as ibase
 - last              # <- Holds value of the last printed number
 chmod 100           # Change file permissions for a user/group/others <look in the chmod_list>
+ps                  # To see task manager in Linux
+top                 # To view live running tasks and resourse consumption per process
+grep                # Global Regex Expression
