@@ -2,12 +2,11 @@
 
 # CODE 9: Given three integers (X, Y, and Z) representing the three sides of a triangle, identify whether the triangle is scalene, isosceles, or equilateral.
 
-echo Enter the 3 sides of a triangle:
-read -r a b c
+read -p "Enter the 3 sides of X triangle: " -r X Y Z
 
-if ((a == b == c)); then
+if ((X == Y == Z)); then
     echo EQUILATERAL
-elif [[ $a -eq $b || $b -eq $c || $a -eq $c ]]; then
+elif [[ $X -eq $Y || $Y -eq $Z || $X -eq $Z ]]; then
     echo ISOSCELES
 else
     echo SCALENE

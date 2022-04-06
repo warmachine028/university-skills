@@ -6,10 +6,8 @@
 # - X is greater than Y
 # - X is equal to Y
 
-echo Enter X:
-read -r x
-echo Enter Y:
-read -r y
+read -p "Enter X: " -r x
+read -p "Enter Y: " -r y
 
 # Comparisions
 if ((x > y)); then
@@ -18,4 +16,6 @@ elif [[ $x -lt $y ]]; then
     echo X is less than Y
 elif [ "$x" -eq "$y" ]; then
     echo X is equal to Y
+else 
+    echo Invalid
 fi

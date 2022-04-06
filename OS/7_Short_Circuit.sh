@@ -6,8 +6,7 @@
 # - X is greater than Y
 # - X is equal to Y
 
-echo Enter X and Y:
-read -r x y
+read -p "Enter X and Y: " -r x y
 
 [[ $x -lt $y ]] && echo X is less than Y
 [[ $x -gt $y ]] && echo X is greater than Y

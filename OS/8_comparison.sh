@@ -5,12 +5,11 @@
 # If the character is 'N' or 'n' display "NO".
 # No other character will be provided as input.
 
-echo Enter a character
-read -r char
+read -p "Enter a character: " -r char
 
-if [[ $char == [yY] ]]; then 
+if [[ $char == [yY] ]]; then
     echo YES
-elif [[ $char == [nN] ]]; then 
+elif [[ $char == [nN] ]]; then
     echo NO
 else
     echo Invalid Input

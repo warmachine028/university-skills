@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
 # CODE 5: Given two integers, X and Y, find their sum, difference, product, and quotient.
-echo Enter X:
-read -r X
-echo Enter Y:
-read -r Y
+read -p "Enter X: " -r X
+read -p "Enter Y: " -r Y
 
 # Calculations
 echo SUM: $((X + Y))
