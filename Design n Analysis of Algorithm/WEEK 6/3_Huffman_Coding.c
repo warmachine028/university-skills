@@ -1,54 +1,50 @@
-// CODE 4: C program to calculate Huffman Coding
+// CODE 3: C program to calculate Huffman Coding
 #include <stdio.h>
 #include <malloc.h>
 
 #define MAX_TREE_HT 100
+#define isSizeOne(minHeap) (minHeap->size == 1)
+#define isLeaf(root) !(root->left || root->right)
 
 typedef struct
 {
-    char data;
-    char *huffmanCode;
+    char data, *huffmanCode;
 } code;
-
-code *HuffmanTable[100];
-int huff_index = 0;
 
 typedef struct MinHeapNode
 {
     char data;
-    unsigned freq;
+    int freq;
     struct MinHeapNode *left, *right;
 } MinHeapNode;
 
 typedef struct
 {
-    unsigned size;
-    unsigned capacity;
-    struct MinHeapNode **array;
+    int capacity, size;
+    MinHeapNode **array;
 } MinHeap;
 
-MinHeapNode *newNode(char data, unsigned freq)
+MinHeapNode *newNode(char data, int freq)
 {
-    MinHeapNode *temp = malloc(sizeof(MinHeapNode));
+    MinHeapNode *node = malloc(sizeof(MinHeapNode));
+    node->left = node->right = NULL;
+    node->data = data;
+    node->freq = freq;
 
-    temp->left = temp->right = NULL;
-    temp->data = data;
-    temp->freq = freq;
-
-    return temp;
+    return node;
 }
 
-MinHeap *createMinHeap(unsigned capacity)
+MinHeap *createMinHeap(int capacity)
 {
     MinHeap *minHeap = malloc(sizeof(MinHeap));
     minHeap->size = 0;
     minHeap->capacity = capacity;
-    minHeap->array = malloc(minHeap->capacity * sizeof(MinHeapNode *));
+    minHeap->array = malloc(capacity * sizeof(MinHeapNode));
 
     return minHeap;
 }
 
-void swapMinHeapNode(MinHeapNode **a, MinHeapNode **b)
+void swapNodes(MinHeapNode **a, MinHeapNode **b)
 {
     MinHeapNode *t = *a;
     *a = *b;
@@ -67,23 +63,17 @@ void minHeapify(MinHeap *minHeap, int idx)
     if (right < minHeap->size && minHeap->array[right]->freq < minHeap->array[smallest]->freq)
         smallest = right;
 
-    if (smallest != idx)
-    {
-        swapMinHeapNode(&minHeap->array[smallest], &minHeap->array[idx]);
-        minHeapify(minHeap, smallest);
-    }
-}
+    if (smallest == idx)
+        return;
 
-int isSizeOne(MinHeap *minHeap)
-{
-    return minHeap->size == 1;
+    swapNodes(&minHeap->array[smallest], &minHeap->array[idx]);
+    minHeapify(minHeap, smallest);
 }
 
 MinHeapNode *extractMin(MinHeap *minHeap)
 {
-    struct MinHeapNode *temp = minHeap->array[0];
-    minHeap->array[0] = minHeap->array[minHeap->size - 1];
-    minHeap->size--;
+    MinHeapNode *temp = minHeap->array[0];
+    minHeap->array[0] = minHeap->array[--minHeap->size];
 
     minHeapify(minHeap, 0);
 
@@ -98,7 +88,6 @@ void insertMinHeap(MinHeap *minHeap, MinHeapNode *minHeapNode)
     while (i && minHeapNode->freq < minHeap->array[(i - 1) / 2]->freq)
         minHeap->array[i] = minHeap->array[(i - 1) / 2],
         i = (i - 1) / 2;
-
     minHeap->array[i] = minHeapNode;
 }
 
@@ -107,11 +96,6 @@ void buildMinHeap(MinHeap *minHeap)
     int n = minHeap->size - 1;
     for (int i = (n - 1) / 2; i >= 0; i--)
         minHeapify(minHeap, i);
-}
-
-int isLeaf(MinHeapNode *root)
-{
-    return !(root->left || root->right);
 }
 
 MinHeap *createAndBuildMinHeap(char data[], int freq[], int size)
@@ -146,15 +130,15 @@ MinHeapNode *buildHuffmanTree(char data[], int freq[], int size)
     return extractMin(minHeap);
 }
 
-void printCodes(MinHeapNode *root, int arr[], int top)
+void generateCodes(MinHeapNode *root, int arr[], int top, code *HuffmanTable[], int *huff_index)
 {
     if (root->left) // Assign 0 to left edge and recur
         arr[top] = 0,
-        printCodes(root->left, arr, top + 1);
+        generateCodes(root->left, arr, top + 1, HuffmanTable, huff_index);
 
     if (root->right) // Assign 1 to right edge and recur
         arr[top] = 1,
-        printCodes(root->right, arr, top + 1);
+        generateCodes(root->right, arr, top + 1, HuffmanTable, huff_index);
 
     // If this is a leaf node, then it contains one of the input characters, print the character and its code from arr[]
     if (isLeaf(root))
@@ -169,49 +153,62 @@ void printCodes(MinHeapNode *root, int arr[], int top)
         huffmanCode[i] = '\0';
 
         newCode->huffmanCode = huffmanCode;
-        HuffmanTable[huff_index++] = newCode;
+        HuffmanTable[&huff_index++] = newCode;
+        printf("%i\n", huff_index);
     }
 }
 
 // The main function that builds a Huffman Tree and print codes by traversing the built Huffman Tree
-void HuffmanCodes(char data[], int freq[], int size)
+int HuffmanCodes(code *HuffmanTable[], char data[], int freq[], int size)
 {
+    // code *HuffmanTable[MAX_TREE_HT];
+    // *HuffmanTable = malloc(MAX_TREE_HT);
+    int huff_index = 0;
+
     // Construct Huffman Tree
     MinHeapNode *root = buildHuffmanTree(data, freq, size);
 
+    // Generate the Huffman Codes
     int arr[MAX_TREE_HT], top = 0;
-    printCodes(root, arr, top);
+    generateCodes(root, arr, top, HuffmanTable, *huff_index);
+    
+    return huff_index;
 }
 
 // Driver code
 int main()
 {
-    int size;
-    scanf("%i", &size);
-    // char arr[] = {'a', 'b', 'c', 'd', 'e', 'f'};
-    // int freq[] = {40, 30, 20, 5, 3, 2};
+    // int size;
+    // scanf("%i", &size);
 
-    char *arr = malloc(sizeof(char) * size);
-    int *freq = malloc(sizeof(int) * size);
+    // char *arr = malloc(sizeof(char) * size);
+    // int *freq = malloc(sizeof(int) * size);
 
-    for (int i = 0; i < size; i++)
-        scanf(" %c", &arr[i]);
+    // for (int i = 0; i < size; i++)
+    //     scanf(" %c", &arr[i]);
 
-    for (int i = 0; i < size; i++)
-        scanf("%i", &freq[i]);
+    // for (int i = 0; i < size; i++)
+    //     scanf("%i", &freq[i]);
 
-    HuffmanCodes(arr, freq, size);
-
+    int size = 6;
+    char arr[] = {'a', 'b', 'c', 'd', 'e', 'f'};
+    int freq[] = {40, 30, 20, 5, 3, 2};
+    
+    
+    code *HuffmanTable[MAX_TREE_HT];
+    int huff_index = HuffmanCodes(HuffmanTable, arr, freq, size);
+    
     for (int i = 0; i < size; i++)
     {
         char ch = arr[i];
         for (int j = 0; j < huff_index; j++)
         {
             char data = HuffmanTable[j]->data;
+            char *code = HuffmanTable[j]->huffmanCode;
             if (ch == data)
             {
-                printf("%c = ", data),
-                    puts(HuffmanTable[j]->huffmanCode);
+                printf("%c = ", data);
+                puts(code);
                 break;
             }
         }
