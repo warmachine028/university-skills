@@ -23,3 +23,11 @@ chmod 100           # Change file permissions for a user/group/others <look in t
 ps                  # To see task manager in Linux
 top                 # To view live running tasks and resourse consumption per process
 grep                # Global Regex Expression
+chmod +x [filename] # Gives execute perm. to owners only
+chmod a+rw [ ””   ] # Gives read-write perm. to everyone
+chmod o-rwx [ ””  ] # Takes away perm. from others to read, write and execute the file
+chmod g+r [ ” ”   ] # Gives read permission to group
+chmod 700 [ ” ”   ] # Gives all permissions to owner and none to others 
+rm *                # remove all files from the current directory
+touch {1..4}_file.ext    # create multiple files numerically with extension .ext. Eg:  1_file.ext, ...
+
