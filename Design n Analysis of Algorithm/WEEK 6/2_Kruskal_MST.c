@@ -1,3 +1,6 @@
+// CODE 2: Given a weighted undirected graph. Find the sum of weights of edges of a Minimum Spanning Tree using Kruskal's Algorithm.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
