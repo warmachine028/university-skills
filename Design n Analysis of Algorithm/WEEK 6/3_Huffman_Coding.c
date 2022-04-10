@@ -130,7 +130,7 @@ MinHeapNode *buildHuffmanTree(char data[], int freq[], int size)
     return extractMin(minHeap);
 }
 
-void generateCodes(MinHeapNode *root, int arr[], int top, code *HuffmanTable[], int *huff_index)
+void generateCodes(MinHeapNode *root, int arr[], int top, code **HuffmanTable, int *huff_index)
 {
     if (root->left) // Assign 0 to left edge and recur
         arr[top] = 0,
@@ -153,13 +153,13 @@ void generateCodes(MinHeapNode *root, int arr[], int top, code *HuffmanTable[], 
         huffmanCode[i] = '\0';
 
         newCode->huffmanCode = huffmanCode;
-        HuffmanTable[&huff_index++] = newCode;
-        printf("%i\n", huff_index);
+        HuffmanTable[*huff_index] = newCode;
+        *huff_index += 1;
     }
 }
 
 // The main function that builds a Huffman Tree and print codes by traversing the built Huffman Tree
-int HuffmanCodes(code *HuffmanTable[], char data[], int freq[], int size)
+int HuffmanCodes(code **HuffmanTable, char data[], int freq[], int size)
 {
     // code *HuffmanTable[MAX_TREE_HT];
     // *HuffmanTable = malloc(MAX_TREE_HT);
@@ -170,7 +170,7 @@ int HuffmanCodes(code *HuffmanTable[], char data[], int freq[], int size)
 
     // Generate the Huffman Codes
     int arr[MAX_TREE_HT], top = 0;
-    generateCodes(root, arr, top, HuffmanTable, *huff_index);
+    generateCodes(root, arr, top, HuffmanTable, &huff_index);
     
     return huff_index;
 }
