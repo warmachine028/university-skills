@@ -1,0 +1,4 @@
+1. (BELLMAN FORD) You are given a graph with n vertices and the edges can have negative weights. Now find the shortest distance for each of the vertices from vertex 1 (that is the 1st vertex of the graph)
+
+2. (0-1 KNAP SACK) You are given n elements. Price and weight of each element is also given. You can only have items of total weight W. Calculate the total price of the products that we can have using 0-1 knapsack algorithm.
+
