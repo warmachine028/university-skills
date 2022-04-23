@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-# CODE 26: Write a script to display all the files in current directory to which you have read, write abd execute permissions.
+# CODE 26: Write a script to display all the files in current directory to which you have read, write and execute permissions.
 
 # find . -maxdepth 1 -perm u=rwx
 # echo
@@ -14,3 +14,4 @@ for file in *; do
 		ls $file
 	fi
 done
+
