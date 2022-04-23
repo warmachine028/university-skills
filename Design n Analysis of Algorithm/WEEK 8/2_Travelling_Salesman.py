@@ -1,22 +1,21 @@
+# CODE 2: Travelling Salesman Problem (TSP) is a touring problem in which n cities and distance between each pair is given. We have to find a shortest route to visit each city exactly once and come back to the starting point.
+
+
 import math
 
-MATRIX = list[list[int]]
+MATRIX = list[list[int | float]]
+
 
 def minimum_distance(
-    source: int,
-    nodes: set, 
-    adj_matrix: MATRIX,
-    memo: dict
-) -> int:
+    source: int, nodes: frozenset, adj_matrix: MATRIX, memo: dict
+) -> int | float:
     if not nodes:
         return adj_matrix[source][0]
 
     # calculate the minimum cost
     costs = [
-        (v, adj_matrix[source][v] + minimum_distance(
-            v, nodes - {v},
-            adj_matrix, memo
-         )) for v in nodes
+        (v, adj_matrix[source][v] + minimum_distance(v, nodes - {v}, adj_matrix, memo))
+        for v in nodes
     ]
     node, min_dist = min(costs, key=lambda x: x[1])
 
@@ -25,7 +24,7 @@ def minimum_distance(
 
 
 def shortest_path(adj_matrix: MATRIX) -> list[int]:
-    memo = dict()
+    memo: dict[tuple, int] = dict()
     nodes = frozenset(range(len(adj_matrix)))
     minimum_distance(0, nodes, adj_matrix, memo)
 
@@ -33,31 +32,27 @@ def shortest_path(adj_matrix: MATRIX) -> list[int]:
     source = 0
     while nodes:
         source = memo[(source, nodes)]
-        solution.append(source+1)
+        solution.append(source + 1)
         nodes -= {source}
     return solution
 
 
 def calculate_distances(cities: MATRIX) -> MATRIX:
     distances = [
-        [
-            math.dist((x1, y1), (x2, y2))
-            for label, x2, y2 in cities 
-         ] for label, x1, y1 in cities
+        [math.dist((x1, y1), (x2, y2)) for _, x2, y2 in cities] for _, x1, y1 in cities
     ]
+
     return distances
 
 
 def main():
-    #taking input
+    # taking input
     cities = int(input())
-    co_ordinates = [
-        [*map(int, input().split())]
-        for _ in range(cities)
-    ]
-    
-    # distances = calculate_distances(co_ordinates)
+    co_ordinates = [[*map(float, input().split())] for _ in range(cities)]
+
+    distances = calculate_distances(co_ordinates)
     # print(shortest_path(distances))
-    print(shortest_path(co_ordinates))
+    print(shortest_path(distances))
+
 
 main()
