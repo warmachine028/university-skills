@@ -1,19 +1,20 @@
 #!/usr/bin/env bash
 
 # CODE 32: Write a shell script to print fibonacci series upto n numbers
+#!/bin/bash
 
-fibonacci() {
-    (( $1 <= 1 )) && return $1
-    fibonacci $(( $1 - 1 ))
-    temp=$?
-    fibonacci $(( $1 - 2 ))
-    return $(($temp + $?))
+function fib(){
+    if [ $1 -le 0 ]; then
+        echo 0
+    elif [ $1 -eq 1 ]; then
+        echo 1
+    else
+        echo $[`fib $[$1-2]` + `fib $[$1 - 1]` ]
+    fi
+
 }
 
-n=4
-for i in $(seq 1 $n); do
-    fibonacci $i
+for i in $(seq 0 $1); do
+    fib $i
     printf "$?, "
 done
-echo -e "\n"
-
