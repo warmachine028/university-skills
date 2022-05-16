@@ -52,7 +52,17 @@ def main():
 
     distances = calculate_distances(co_ordinates)
     # print(shortest_path(distances))
-    print(shortest_path(distances))
+    print(*shortest_path(distances), sep=" ")
 
 
 main()
+
+# INPUT:
+# 4
+# 0 0 0
+# 1 0 1
+# 2 1 0
+# 3 1 1
+
+# OUTPUT:
+# 1 2 4 3

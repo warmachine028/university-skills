@@ -33,3 +33,4 @@ int main() {
     int solution = knapSack01(W, weights, prices, n);
     printf("%i", solution);    
 }
+

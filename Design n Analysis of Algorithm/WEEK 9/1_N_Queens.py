@@ -1,4 +1,4 @@
-
+# CODE 1: CODE 1: Given a chess board having cells, you need to place N queens on the board in such a way that no queen attacks any other queen. 
 
 def nqueen(start, nq, board):
     def place(k, i):

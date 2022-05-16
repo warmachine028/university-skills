@@ -55,11 +55,6 @@ void solve(int graph[N][N], int* colors, int n_colors)
 		? printRedCount(colors, n_colors)
 		: printf("NO");
 
-	/*
-	for (int i = 0; i < N; i++)
-		printf("%i, ", color[i]);
-	printf("\n");
-	*/
 }
 
 int main()
@@ -93,3 +88,12 @@ int main()
 		solve(matrix, color, n_colors);
 	}
 }
+
+// INPUT:
+// 1
+// 3 2
+// 1 2
+// 2 3
+
+// OUTPUT: 
+// 2

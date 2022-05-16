@@ -13,14 +13,14 @@ void isort(int *arr, int n)
         // find position
         while (position > 0 && arr[position - 1] > value)
             arr[position] = arr[position - 1], position--;
+        
         arr[position] = value; // insert
     }
 }
 
 int main()
 {
-    int n;
-    scanf("%i", &n);
+    int n; scanf("%i", &n);
     int *arr = malloc(sizeof(int) * n);
     for (int i = 0; i < n; i++)
         scanf("%i", &arr[i]);
@@ -30,3 +30,10 @@ int main()
     for (int i = 0; i < n; i++)
         printf("%i ", arr[i]);
 }
+
+// INPUT:
+// 5
+// 1 2 3 4 5
+
+// OUTPUT:
+// 1 2 3 4 5

@@ -47,13 +47,18 @@ void print(int *arr, int n)
 
 void main()
 {
-    int n;
-    scanf("%i", &n);
+    int n; scanf("%i", &n);
     int *arr = malloc(sizeof n * n);
-
     for (int i = 0; i < n; i++)
         scanf("%i", &arr[i]);
 
     quickSort(arr, n);
     print(arr, n);
 }
+
+// INPUT: 
+// 5
+// 4 3 1 5 2
+
+// OUTPUT:
+// 1 2 3 4 5

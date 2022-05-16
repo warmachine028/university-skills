@@ -83,3 +83,14 @@ int main()
 
     printf("%i", primsMST(graph, n));
 }
+
+// INPUT: 
+// 4 5
+// 1 2 7
+// 1 4 6
+// 4 2 9
+// 4 3 8
+// 2 3 6
+
+// OUTPUT:
+// 19

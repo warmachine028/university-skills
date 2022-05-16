@@ -1,4 +1,4 @@
-//CODE1: You're given n 2D matrices to multiply. Find out the minimum no of multiplications you need to perform.
+//CODE 1: You're given n 2D matrices to multiply. Find out the minimum no of multiplications you need to perform.
 
 #include<stdio.h>
 #define min(a, b) a < b ? a : b
@@ -49,16 +49,25 @@ int main() {
 	printf("%i\n", result);
 }
 
+// INPUT: 
+// 4
+// 1 2
+// 2 1
+// 1 4
+// 4 1
+
+// OUTPUT: 
+// 7
 
 
-/*  INPUT:
+/*  
+INPUT:
 4
 10 100
 100 20
 20 5
 5 80
 
-	OUTPUT:
+OUTPUT:
 19,000
 */
-

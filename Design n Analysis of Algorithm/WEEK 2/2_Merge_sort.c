@@ -62,8 +62,7 @@ void main()
 {
     // int n = 5;
     // int arr[] = {9, 8, -1, 3, 2};
-    int n;
-    scanf("%i", &n);
+    int n; scanf("%i", &n);
     int *arr = malloc(sizeof n * n);
 
     for (int i = 0; i < n; i++)
@@ -72,3 +71,10 @@ void main()
     mergeSort(arr, n);
     print(arr, n);
 }
+
+// INPUT:
+// 5
+// 1 4 3 2 5
+
+// OUTPUT:
+// 1 2 3 4 5

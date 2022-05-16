@@ -2,6 +2,7 @@
 // Note: It is guaranteed that all the elements in this array are unique and for each x belonging to a query, value x shall exist in the array
 
 #include <stdio.h>
+#include <malloc.h>
 
 int binarySearch(int *arr, int key, int n)
 {
@@ -21,10 +22,33 @@ int binarySearch(int *arr, int key, int n)
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5};
-    int n = 5;
-    int queries[] = {1, 2, 3, 4, 5};
+    int n; scanf("%i", &n);
+    int *arr = malloc(sizeof n * n);
+    for (int i = 0; i < n; i++)
+        scanf("%i", &arr[i]);
+
+    int m; scanf("%i", &m);
+    int *queries = malloc(sizeof m * m);
+    for (int i = 0; i < n; i++)
+        scanf("%i", &queries[i]);
+
     for (int i = 0; i < n; i++)
         printf("%i\n", binarySearch(arr, queries[i], n) + 1);
-    return 0;
 }
+
+// INPUT:
+// 5
+// 1 2 3 4 5
+// 5
+// 1
+// 2
+// 3
+// 4
+// 5
+
+// OUTPUT:
+// 1
+// 2
+// 3
+// 4
+// 5

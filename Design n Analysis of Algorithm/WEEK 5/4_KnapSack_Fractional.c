@@ -1,4 +1,5 @@
 // CODE 4: In Fractional Knapsack, we can break items for maximizing the total value of knapsack. This problem in which we can break an item is also called the fractional knapsack problem. You are given n elements. Price and weight of each element is also given. Calculate the total price of the products that we can have using fractional knapsack algorithm.
+
 #include <stdio.h>
 #include <malloc.h>
 

@@ -3,16 +3,12 @@
 #include <malloc.h>
 #include <stdio.h>
 #include <string.h>
+#define max(a, b) a > b ? a : b
 
-int max(int a, int b)
+int LCS(char *S1, char *S2)
 {
-	return a > b ? a : b;
-}
-
-int LCS(char* S1, char* S2)
-{
-	int m = strlen(S1);
-	int n = strlen(S2);
+	int m = strlen(S1) - 1;
+	int n = strlen(S2) - 1;
 
 	int LCS_table[n + 1][m + 1];
 	for (int i = 0; i <= m; i++)
@@ -22,7 +18,8 @@ int LCS(char* S1, char* S2)
 		LCS_table[i][0] = 0;
 
 	for (int i = 1; i <= n; i++)
-		for (int j = 1; j <= m; j++) {
+		for (int j = 1; j <= m; j++)
+		{
 			int x = LCS_table[i - 1][j];
 			int y = LCS_table[i][j - 1];
 
@@ -38,15 +35,17 @@ int LCS(char* S1, char* S2)
 
 int main()
 {
-	// int string_size = 100;
-	// char* str1 = malloc(sizeof(char) * string_size);
-	// char* str2 = malloc(sizeof(char) * string_size);
+	// decrement length
+	int string_size = 100;
+	char *str1 = malloc(sizeof(char) * string_size);
+	char *str2 = malloc(sizeof(char) * string_size);
 
-	// fgets(str1, string_size, stdin);
-	// fgets(str2, string_size, stdin);
+	fgets(str1, string_size, stdin);
+	fgets(str2, string_size, stdin);
 
-	char str1[] = "todolomejor";
-	char str2[] = "rolcmhjrt";
+	// d'ont decrement length
+	// char str1[] = "todolomejor";
+	// char str2[] = "rolcmhjrt";
 
 	int result = LCS(str1, str2);
 	printf("%i\n", result);
@@ -72,3 +71,10 @@ int main()
 			j--;
 	printf("%i", LCS_table[m][n]);
 */
+
+// INPUT:
+// todolomejor
+// rolcmhjrt
+
+// OUTPUT:
+// 5

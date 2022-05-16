@@ -1,8 +1,8 @@
-// CODE 2: (0 - 1 KNAP SACK) You are given n elements.Price and weight of each element is also given.You can only have items of total weight W.Calculate the total price of the products that we can have using 0 - 1 knapsack algorithm.
+// CODE 2: You are given n elements. Price and weight of each element is also given. You can only have items of total weight W. Calculate the total price of the products that we can have using 0 - 1 knapsack algorithm.
 
 #include <stdio.h>
 #include <malloc.h>
-#define max(a, b) (a > b ? a : b)
+#define max(a, b) a > b ? a : b
 
 int knapSack(int W, int wt[], int val[], int n)
 {
@@ -36,3 +36,12 @@ int main()
 
     printf("%i", knapSack(W, wt, val, n));
 }
+
+// INPUT: 
+// 3
+// 50
+// 10 20 30
+// 60 100 120
+
+// OUTPUT:
+// 220

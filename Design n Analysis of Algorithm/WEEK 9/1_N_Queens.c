@@ -1,6 +1,4 @@
-/* CODE 1:
-Given a chess board having cells, you need to place N queens on the board in such a way that no queen attacks any other queen.
-*/
+// CODE 1: Given a chess board having cells, you need to place N queens on the board in such a way that no queen attacks any other queen.
 
 #include <stdio.h>
 
@@ -10,7 +8,8 @@ int N;
 
 void print(int board[N][N])
 {
-	for (int j = 0; j < N; j++) {
+	for (int j = 0; j < N; j++)
+	{
 		for (int i = 0; i < N; i++)
 			printf("%i ", board[i][j]);
 		printf("\n");
@@ -40,7 +39,8 @@ int NQueens(int board[N][N], int col)
 		return true;
 
 	for (int i = 0; i < N; i++)
-		if (isValid(board, i, col)) {
+		if (isValid(board, i, col))
+		{
 			board[i][col] = 1;
 			if (NQueens(board, col + 1))
 				return true;
@@ -68,3 +68,12 @@ int main()
 	scanf("%i", &N);
 	solve();
 }
+
+// INPUT:
+// 4
+
+// OUTPUT: 
+// 0 1 0 0 
+// 0 0 0 1 
+// 1 0 0 0 
+// 0 0 1 0

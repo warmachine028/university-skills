@@ -55,13 +55,22 @@ void main()
 {
     // int n = 10;
     // int arr[] = {5, 0, 14, 2, 3, 17, 15, 10, 1, 12};
-    int n;
-    scanf("%i", &n);
+    int n; scanf("%i", &n);
     int *arr = malloc(sizeof n * n);
-
     for (int i = 0; i < n; i++)
         scanf("%i", &arr[i]);
 
     heapSort(arr, n);
     print(arr, n);
 }
+
+// INPUT: 
+// 5
+// 5
+// 4
+// 3
+// 2
+// 1
+
+// OUTPUT:
+// 1 2 3 4 5

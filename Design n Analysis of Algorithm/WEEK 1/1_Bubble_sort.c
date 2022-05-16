@@ -1,3 +1,5 @@
+// CODE 1: You have been given an array A of size N . you need to sort this array non-decreasing oder using bubble sort. However, you do not need to print the sorted array . You just need to print the number of swaps required to sort this array using bubble sort
+
 #include <stdio.h>
 #include <malloc.h>
 
@@ -29,3 +31,10 @@ void main()
     int swaps = bubbleSort(arr, n);
     printf("%i ", swaps);
 }
+
+// INPUT: 
+// 5
+// 1 2 3 4 5
+
+// OUTPUT:
+// 0

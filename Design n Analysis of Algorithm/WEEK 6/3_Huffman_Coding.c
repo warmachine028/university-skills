@@ -1,4 +1,5 @@
-// CODE 3: C program to calculate Huffman Coding
+// CODE 3: Given a set of n characters and their frequencies. Find out their codes using Huffman encoding. Consider left child = 0, right child = 1
+
 #include <stdio.h>
 #include <malloc.h>
 
@@ -159,7 +160,7 @@ void generateCodes(MinHeapNode *root, int arr[], int top, code *HuffmanTable[], 
     }
 }
 
-// The main function that builds a Huffman Tree and print codes by traversing the built Huffman Tree
+// function builds a Huffman Tree and print codes by traversing the built Huffman Tree
 void HuffmanCodes(code *HuffmanTable[], char data[], int freq[], int size)
 {
     // Construct Huffman Tree
@@ -170,7 +171,7 @@ void HuffmanCodes(code *HuffmanTable[], char data[], int freq[], int size)
     generateCodes(root, arr, top, HuffmanTable, &index);
 }
 
-// Driver code
+
 int main()
 {
     int size;
@@ -209,3 +210,16 @@ int main()
         }
     }
 }
+
+// INPUT:
+// 6
+// a b c d e f
+// 40 30 20 5 3 2
+
+// OUTPUT:
+// a = 0
+// b = 10
+// c = 111
+// d = 1100
+// e = 11011
+// f = 11010
