@@ -1,37 +1,47 @@
-// CODE 1: you are given an array of size N. You need to select K elements from the array such that the difference between the max number among selected and the min number among selected array elements should be minimum. Print the minimum difference.
+// CODE 1: You are given an array of size N. You need to select K elements from the array such that the difference between the max number among selected and the min number among selected array elements should be minimum. Print the minimum difference.
 
-/*
-5
-3
-1
-2
-3
-4
-5
-
-2
-*/
 #include <stdio.h>
+#include <stdlib.h>
+#define min(a, b) a < b ? a : b
 
-int maxmin(int *arr, int i, int j, int n, int k)
+int cmpfunc(const void *a, const void *b)
 {
-    int result = arr[i];
-    if (n < k || n < 1)
-        return result;
-    for (int idx = i; idx < j; idx++)
-        
-    return result;
+    return *(int *)a - *(int *)b;
 }
 
-int compute_max_min(int *nums, int n, int k)
+int max_min(int *nums, int n, int k)
 {
-    return maxmin(nums, 0, n, n, k);
+    // sorting the array
+    qsort(nums, n, sizeof n, cmpfunc);
+
+    int result = __INT_MAX__;
+    for (int i = 0; i < n - k + 1; i++)
+        result = min(result, nums[i + k - 1] - nums[i]);
+    
+    return result;
 }
 
 void main()
 {
-    int n = 5, k = 3;
-    int nums[] = {1, 2, 3, 4, 5};
-    int result = compute_max_min(nums, n, k);
+    int n, k;
+    scanf("%i %i", &n, &k);
+
+    int *arr = malloc(sizeof n * n);
+    for (int i = 0; i < n; i++)
+        scanf("%i", &arr[i]);
+
+    int result = max_min(arr, n, k);
     printf("%i", result);
 }
+
+// INPUT:
+// 5
+// 3
+// 1
+// 2
+// 3
+// 4
+// 5
+
+// OUTPUT:
+// 2
