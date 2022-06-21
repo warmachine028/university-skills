@@ -2,7 +2,7 @@
 
 ## Greedy - 30th March 2022
 
-1. [Prim's Algorithm](Prims_MST.c)
+1. [Prim's Algorithm](1_Prims_MST.c)
    You are given n # of 2D matrices to multiply. Find out the minimum # of multiplications you need to perform.
 
 2. [Kruskal's Algorithm](2_Kruskal_MST.c)
