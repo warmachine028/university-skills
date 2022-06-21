@@ -11,5 +11,5 @@
 3. [Optimal Merge Pattern](3_Optimal_Merge.c)  
    Optimal merge pattern is a pattern that relates to the merging of two or more sorted files in a single sorted file. This type of merging can be done by the two-way merging method. If we have two sorted files containing n and m records respectively then they could be merged together, to obtain one sorted file in time O (n+m).
 
-4. [Fractional Knapsack Problem](4_KnapSack_fractional.c)  
+4. [Fractional Knapsack Problem](4_KnapSack_Fractional.c)  
    In Fractional Knapsack, we can break items for maximizing the total value of knapsack. This problem in which we can break an item is also called the fractional knapsack problem. You are given n elements. Price and weight of each element is also given. Calculate the total price of the products that we can have using fractional knapsack algorithm.
