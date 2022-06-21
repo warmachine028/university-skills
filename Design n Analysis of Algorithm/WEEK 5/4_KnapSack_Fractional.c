@@ -76,3 +76,13 @@ int main()
     float solution = knapSackFractional(W, weights, prices, n);
     printf("%.f", solution);
 }
+
+// INPUT:
+// 3
+// 50
+// 10 20 30
+// 60 100 120
+
+// OUTPUT:
+// 240
+
