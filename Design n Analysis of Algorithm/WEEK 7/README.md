@@ -8,5 +8,5 @@
 2. [01 Knapack](2_01_knapsack.c)
    You are given n elements. Price and weight of each element is also given. You can only have items of total weight W. Calculate the total price of the products that we can have using 0-1 knapsack algorithm.
 
-3. [Floyd Warshall](3_floyd_warshal.c)
+3. [Floyd Warshall](3_floyd_warshall.c)
    **Greedy Algorithm** You are given 2 strings and you have to find the Longest Common Subsequence between them.
