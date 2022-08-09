@@ -1,8 +1,0 @@
-1. Only Compile:
-gcc -Wall <c-script-name> -c <output-file-name>
-
-2. Compile and Run:
-gcc -Wall <c-script-name> -c <output-file-name> && ./<output-file-name>
-
-3. Example:
-gcc -Wall 1_N_Queens.c -o Nqueen && ./Nqueen
