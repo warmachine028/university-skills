@@ -34,3 +34,11 @@ int main() {
     printf("%i", solution);    
 }
 
+// INPUT: 
+// 3
+// 50
+// 10 20 30
+// 60 100 120
+
+// OUTPUT:
+// 220

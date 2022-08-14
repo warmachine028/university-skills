@@ -38,3 +38,10 @@ void main()
     int solution = minMergeCost(0, n - 1, arr);
     printf("%i", solution);
 }
+
+// INPUT:
+// 5, 3, 2, 7, 9, 13
+
+
+// OUTPUT:
+// 39
