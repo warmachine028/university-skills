@@ -1,1 +1,1 @@
-RENAME TABLE Employee TO Employees;
+RENAME TABLE Employee TO Emp;
