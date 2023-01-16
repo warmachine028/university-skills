@@ -2,7 +2,8 @@
 #define LEXER_H
 
 typedef enum TokenType1 TokenType;
-enum TokenType1 {
+enum TokenType1
+{
     INVALID,
     OPEN,
     PLUS,
@@ -19,6 +20,5 @@ Token getToken(Token);
 
 // #define <constant>'s replaced by pre-processors
 // enums are replaced by the complers
-
 
 #endif
