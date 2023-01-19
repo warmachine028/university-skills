@@ -27,34 +27,28 @@ int main()
 			if (data[i + 1] == '/')
 			{
 				while (data[i] != '\n')
-				{
 					i++;
-				}
+
 				fputc(data[i], final);
 			}
 			// A multi line comment is encountered
 			else if (data[i + 1] == '*')
 			{
-				printf("THis is here");
-				while (data[i] != '*')
-				{
-					if (data[i + 1] == '/')
-						break;
+				i += 2;
+				while (data[i] != '*' && data[i + 1] != '/')
 					i++;
-				}
+				i += 2;
 				fputc(data[i], final);
 			}
 			// Not a comment
 			else
-			{
 				fputc(data[i], final);
-			}
 		}
+		else if (data[i] == EOF)
+			i++;
 		else
-		{
 			fputc(data[i], final);
-		}
-		i += 1;
+		i++;
 	}
 	fclose(cursor);
 	fclose(final);

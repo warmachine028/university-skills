@@ -2,8 +2,7 @@
 
 int main()
 {
-
-    printf("Hello World\n");
-    *This is also a comment * /
+    
+    printf("Hello World/ This is a comment
+    
 }
-�
