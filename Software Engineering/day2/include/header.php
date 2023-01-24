@@ -1,3 +1,6 @@
+<?php
+include("connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,12 +14,18 @@
 
         td,
         th {
-            border: 1px solid #ffffff;
-            text-align: 'left';
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
         }
 
-        tr:nth-child(){
-            background-color: #ffffff;
+        tr:nth-child(odd) {
+            background-color: #b5b5b5;
+        }
+
+        tr:nth-child(1) {
+            background-color: orange;
+
         }
     </style>
     <meta charset="UTF-8">

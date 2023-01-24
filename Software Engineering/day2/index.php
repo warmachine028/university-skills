@@ -7,16 +7,19 @@ include("include/header.php");
         <th>Contact</th>
         <th>Country</th>
     </tr>
+    <?php
+        $query = "SELECT company, contact, country FROM `html table`";
+        $result = mysqli_query($con, $query);
+        while ($fetch=mysqli_fetch_object($result)){
+    ?>
     <tr>
-        <td>Alfred Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
+        <td><?php echo $fetch->company ?></td>
+        <td><?php echo $fetch->contact ?></td>
+        <td><?php echo $fetch->country ?></td>
     </tr>
-    <tr>
-        <td>Centro Commercial Moctezuma</td>
-        <td>Franchisco hang</td>
-        <td>Mexico</td>
-    </tr>
+    <?php 
+        }
+    ?>
 </table>
 <?php
 include("include/footer.php");
