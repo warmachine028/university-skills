@@ -4,7 +4,7 @@ class Object1 {
 
 class Object2 { // No args constructor
     Object2() {
-        System.out.println("Hello I'm a no argument constructor");
+        System.out.println("Hello, I have a no argument constructor!");
     }
 }
 
