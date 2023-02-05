@@ -35,7 +35,7 @@ int checkChars(char str[])
     return result;
 }
 
-// Trimming characters 
+// Trimming characters
 char *trim(char str[])
 {
     int length = strlen(str),
@@ -80,13 +80,4 @@ int isValidIdentifier(char str[])
         return result;
 
     return result = 1;
-}
-
-void main()
-{
-    char identifier[] = "AnIdentifier_12qj__ ";
-    if (isValidIdentifier(identifier))
-        printf("Valid identifier");
-    else
-        printf("Not a valid identifier");
 }
