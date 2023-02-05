@@ -1,0 +1,11 @@
+Q. Why Java is platform independent?
+A. We can write JAVA code anywhere. Then we can distribute the .class file, byte code to any OS. 
+   May be Windows, Mac, CenOS, Ubuntu, Mac, so it. 
+   Java is platform independent and JDK is platform dependent.
+
+
+REDHAT enterprise os which is written on top of Linux
+
+Fedora is a completeley open source platform and CentOS is enterprise based
+
+javap java.lang.String
