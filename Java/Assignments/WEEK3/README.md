@@ -1,15 +1,15 @@
 # WEEK1: Java Introduction
 
-## 30th January 2023 Monday
+## 5th February 2023 Monday
 
 | Sl.No | OBJECTIVE                          | PATH                                         |
 | ----- | ---------------------------------- | -------------------------------------------- |
-| 1     | Create a Simple Array              | [ArrayAccess.java](./ArrayAccess.java)       |
-| 2     | Create a 2D Array                  | [ArrayAccess2D.java](./ArrayAccess2D.java)   |
-| 3     | Sum of even Array Items            | [EvenSum.java](./EvenSum.java)               |
-| 4     | Sum of 2D Array Items              | [Sum2D.java](./Sum2D.java)                   |
-| 5     | Sum of Diagonals                   | [SumDiagonal.java](./SumDiagonal.java)       |
-| 6     | Matrix Multiplication              | [MatrixMultiply.java](./MatrixMultiply.java) |
+| 1     | Implement BufferedReader class     | [BuffReader.java](./BuffReader.java)         |
+| 2     | Implement Scanner Class            | [ScanReader.java](./ScanReader.java)         |
+| 3     | Reverse a Number                   | [ReverseNumber.java](./ReverseNumber.java)   |
+| 4     | Check for Palindrome               | [Palindrome.java](./Palindrome.java)         |
+| 5     | Check for Prime                    | [PrimeNumber.java](./PrimeNumber.java)       |
+| 6     | Convert Bin to Dec & Dec to Bin    | [Conversion.java](./Conversion.java)         |
 | 7     | Default & No args Constructors     | [Constructor1.java](./Constructor1.java)     |
 | 8     | Parameterized Constructors         | [Constructor2.java](./Constructor2.java)     |
 | 9     | Caller Methods                     | [GetterMethod.java](./GetterMethod.java)     |
