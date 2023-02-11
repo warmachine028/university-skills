@@ -19,10 +19,11 @@ class Main {
         int n = sc.nextInt();
         sc.close();
 
-        for (int i = 1; i < n; i++)
-            if (PrimeNumber.isPrime(i))
-                System.out.print(i + ", ");
-        // Prime Number 
+        // Prime Number
+        if (PrimeNumber.isPrime(n))
+            System.out.print("Number is Prime");
+        else
+            System.out.print("Number is not Prime");
     }
 
 }

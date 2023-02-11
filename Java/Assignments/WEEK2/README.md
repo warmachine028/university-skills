@@ -1,4 +1,4 @@
-# WEEK1: Java Introduction
+# WEEK2: Array Accesses
 
 ## 30th January 2023 Monday
 
