@@ -8,17 +8,17 @@ include("include/header.php");
         <th>Country</th>
     </tr>
     <?php
-        $query = "SELECT company, contact, country FROM `html table`";
-        $result = mysqli_query($con, $query);
-        while ($fetch=mysqli_fetch_object($result)){
+    $query = "SELECT company, contact, country FROM `html table`";
+    $result = mysqli_query($con, $query);
+    while ($fetch = mysqli_fetch_object($result)) {
     ?>
     <tr>
         <td><?php echo $fetch->company ?></td>
         <td><?php echo $fetch->contact ?></td>
         <td><?php echo $fetch->country ?></td>
     </tr>
-    <?php 
-        }
+    <?php
+    }
     ?>
 </table>
 <?php
