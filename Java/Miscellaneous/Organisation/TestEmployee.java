@@ -1,3 +1,4 @@
+package Organisation;
 
 public class TestEmployee {
     public static void main(String[] args) {
@@ -6,3 +7,4 @@ public class TestEmployee {
         System.out.println(p.name.equals(emp.name));
     }
 }
+// javac -d . *.java && java Organisation.TestEmployee

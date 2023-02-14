@@ -1,3 +1,4 @@
+package Organisation;
 
 public class Employee extends Person {
     private double annual_salary;
@@ -26,4 +27,3 @@ public class Employee extends Person {
         return nationalIN;
     }
 }
-

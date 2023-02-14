@@ -1,3 +1,5 @@
+package School;
+
 enum YearOfStudying {
     FIRST,
     SECOND,

@@ -1,3 +1,5 @@
+package School;
+
 enum Subject {
     COA,
     DBMS,

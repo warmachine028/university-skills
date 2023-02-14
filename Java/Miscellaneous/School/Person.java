@@ -1,3 +1,5 @@
+package School;
+
 public class Person {
     String dateOfBirth,
             name;

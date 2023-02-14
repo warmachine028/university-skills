@@ -1,3 +1,4 @@
+package Organisation;
 
 public class Person {
     String name;
