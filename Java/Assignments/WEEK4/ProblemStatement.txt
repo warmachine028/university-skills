@@ -1,0 +1,5 @@
+Create a general class ThreeDObject and derive the classes Box, Cube, Cylinder and Cone from it.
+The class ThreeDObject has methods wholeSurfaceArea() and volume(), 
+Override these 2 methods in each of the derived classes to calculate the volume and whole surface area of each of three-dimentional objects.
+The dimentions of the objects are to be taken from the users and passed through the respective constructors of each derived classes.
+Write a main method to test these classes.
