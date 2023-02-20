@@ -1,0 +1,8 @@
+Q. Multiple inheritence is not supported in Java - Justify?
+Ans. Multiple inheritence is not supported in java because of the occurence of ambiguity in method resolution order for same name methods and variables of the parent Classes. Suppose Circle and Rectangle are 2 Classes having some method named getVolume(). Cyliner is another Class inheriting properties of both the classes, Circle and Cylinder. Now if Cylinder tries to call the getVolume() method, there would be an ambiguity in Method resolution order of getVolume(). Hence the developers avoided adding the feature of Multiple inheritence in Java. This also gives rise to the famous diamond Problem in Programming. However Multiple Inheritence can still be implemented using Interfaces. Also there are other ways to overcome a problem which might seem that only requires Multiple inheritence using Heirarchial Inheritence and MultiLevel Inheritence.
+
+        A    B
+        |    |
+        ______
+           |
+           C
