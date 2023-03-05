@@ -13,4 +13,4 @@
 | 7     | This -> Return                  | [ThisReturn.java](./ThisReturn.java)                           |
 | 8     | This == CurrentClass            | [ThisCurrentInstance.java](./ThisCurrentInstance.java)         |
 | 9     | Local Variable Supressor        | [LocalVariableSupressor.java](./LocalVariableSupressor.java)   |
-| 10    | Inheritence, Overriding         | [](./)                                                         |
+| 10    | Inheritence, Overriding         | [📂InheritenceOverriding](./InheritenceOverriding/Main.java)   |
