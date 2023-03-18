@@ -11,3 +11,4 @@
 | 5     | SubPackage     | [📂SuperPackage](./SuperPackage/Main.java)       |
 | 6     | PackageMethods | [PackageMethod.java](./PackageMethod.java)       |
 | 7     | PackageMethods | [SubPackageMethod.java](./SubPackageMethod.java) |
+| 8     | Public Access Specifier | [Public.java](./Public.java) |
