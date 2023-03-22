@@ -18,14 +18,17 @@ interface Gen3Species extends Gen2Species {
 }
 
 class Human implements Gen3Species {
+    @Override
     public void walk() {
         System.out.println("Walking...");
     }
 
+    @Override
     public void swim() {
         System.out.println("Swimming...");
     }
 
+    @Override
     public void think() {
         System.out.println("Thinking...");
     }

@@ -3,6 +3,7 @@ interface Printable {
 }
 
 class Class implements Printable {
+    @Override
     public void print() {
         System.out.println("Instance Method");
     }

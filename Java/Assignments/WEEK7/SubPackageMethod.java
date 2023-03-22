@@ -2,7 +2,7 @@ import SuperPackage.SubPackage2.Dog;
 import SuperPackage.Cog;
 
 class Husky implements Dog {
-
+    @Override
     public void bark() {
         System.out.println("Make Husky Sounds");
     }

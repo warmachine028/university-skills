@@ -7,10 +7,12 @@ interface Dog {
 }
 
 class Cog implements Dog, Cat {
+    @Override
     public void meow() {
         System.out.println("Cat sounds...");
     }
 
+    @Override
     public void bark() {
         System.out.println("Dog sounds...");
     }

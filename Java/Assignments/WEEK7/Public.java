@@ -1,10 +1,8 @@
 class Class {
-    /*
-    default void method() {
-        // Only Applicable in Interfaces
+    void method() {
         System.out.println("Default Method");
     }
-    */
+
     private void method1() {
         // Visible only within this class
         System.out.println("Private Method");
@@ -32,14 +30,14 @@ class Class {
     }
 
     /*
-    abstract void method6(); -> Can be declared only in Abstract Classes 
+        abstract void method6(); -> Can be declared only in Abstract Classes
     */
 }
 
 public class Public extends Class {
     public static void main(String[] args) {
         var object = new Public();
-        // object.method(); // Can't acess default methods Since not an Interface
+        object.method();
         // object.method1(); // Can't Access Since private
         object.method2(); // Protected Accessible in SubClass
         object.method3(); // Public methods accessible everywhere
