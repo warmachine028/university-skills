@@ -20,7 +20,8 @@ public class ArrayLists {
         m = sc.nextInt();
         for (int i = 0; i < m; i++) {
             int x = sc.nextInt(), y = sc.nextInt();
-            x--; y--;
+            x--;
+            y--;
             try {
                 System.out.println(arr.get(x).get(y));
             } catch (IndexOutOfBoundsException e) {
