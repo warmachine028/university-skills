@@ -6,23 +6,18 @@
 %}
 
 /* Rules & Action */
+%option noyywrap
 %%
-\n { return 0; }
 [aeiouAEIOU]  { vowels++; }
 [a-zA-Z] { consonants++; }
 . ;
 %%
 
-int yywrap() {
-    return 0;
-}
-
 /* Main Function */
 int main() {
-    printf("Enter the string: ");
+    printf("Enter string: ");
     yylex();
     printf("Number of vowels: %i\n", vowels);
     printf("Number of consonants: %i\n", consonants);
-    // int printf(const char*, ...);
     return 0;
 }

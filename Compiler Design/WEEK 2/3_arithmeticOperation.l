@@ -16,7 +16,7 @@ integer -?[0-9]+
 {integer}*{integer}	eval(yytext, '*');
 {integer}/{integer} eval(yytext, '/');
 %%
-/* {integer}[+-*/]{integer} eval(yytext); */
+/* {integer}[+-*\/]{integer} eval(yytext); */
 
 /* Subroutine */
 void eval(const char *, char op) {
