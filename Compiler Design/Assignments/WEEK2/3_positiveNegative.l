@@ -12,8 +12,8 @@
         negFrac = 0;
 %}
 
-%option noyywrap
 /* Rules and Actions */
+%option noyywrap
 %%
 [+]?[0-9]+          { posInt++; }
 -[0-9]+             { negInt++; }

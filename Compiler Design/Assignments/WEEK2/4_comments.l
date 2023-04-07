@@ -7,8 +7,8 @@
     char *gets(char *);
 %}
 
-%option noyywrap
 /* Rules and Actions */
+%option noyywrap
 %%
 \n                { fprintf(yyout, "\n"); } // Print newLines
 [.]*"//".*        { comments++;}
