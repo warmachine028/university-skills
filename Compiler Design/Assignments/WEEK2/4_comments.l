@@ -4,6 +4,7 @@
 /* Definition Declarations */
 %{
     int comments = 0;
+    char *gets(char *);
 %}
 
 %option noyywrap
