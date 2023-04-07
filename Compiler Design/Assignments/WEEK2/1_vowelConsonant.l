@@ -13,7 +13,9 @@
 . ;
 %%
 
-int yywrap(){};
+int yywrap() {
+    return 0;
+}
 
 /* Main Function */
 int main() {
