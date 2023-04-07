@@ -12,4 +12,4 @@
 | 6     | Thread Priorities        | [Priority.java](./Priority.java)                         |
 | 7     |                          |                                                          |
 | 8     | Thread isAlive() method  | [ThreadAlive.java](./ThreadAlive.java)                   |
-| 9     | Thread getName() method  | [ThreadAlive.java](./ThreadAlive.java)                   |
+| 9     | Thread getName() method  | [ThreadName.java](./ThreadName.java)                     |
