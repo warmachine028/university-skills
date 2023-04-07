@@ -155,3 +155,7 @@ cython_debug/
 node_modules
 build
 # End of https://www.toptal.com/developers/gitignore/api/python
+*.exe
+lex.yy.c
+y.tab.c
+y.tab.h
