@@ -1,0 +1,16 @@
+name: Update Date
+
+on:
+  push:
+    branches:
+      - SEMESTER%206 # Change this to your default branch name
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update Date
+        run: date +"%D" > date.md
