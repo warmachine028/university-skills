@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update Date
-        run: date +"%D" > date.md
+        run: date +"%D" > README.md
