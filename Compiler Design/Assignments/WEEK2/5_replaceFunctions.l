@@ -13,7 +13,7 @@
 /* Rules and Options */
 %option noyywrap
 %%
-"scanf" { fprintf(yyout, "readf"); scanfStmt++;}
+"scanf"  { fprintf(yyout, "readf"); scanfStmt++;}
 "printf" { fprintf(yyout, "writef"); printfStmt++;}
 %%
 
