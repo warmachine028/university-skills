@@ -1,5 +1,5 @@
 %{
-    #include <stdio.h>
+    int printf(const char *, ...);
     void exit(int status);    
 %}
 
@@ -9,14 +9,13 @@
 
 %%
 expr: expr '+' expr
-    |expr '-' expr
-    |expr '*' expr
-    |expr '/' expr
-    |'/'NUMBER
-    |'-'ID
-    |'('expr')'
-    |NUMBER
-    |ID
+    | expr '-' expr
+    | expr '*' expr
+    | expr '/' expr
+    | '/'NUMBER
+    | '-'ID
+    | NUMBER
+    | ID
     ;
 %%
 
