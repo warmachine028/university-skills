@@ -1,6 +1,3 @@
-import java.io.IOError;
-import java.io.IOException;
-
 public class Sleep implements Runnable {
     @Override
     public void run() {
