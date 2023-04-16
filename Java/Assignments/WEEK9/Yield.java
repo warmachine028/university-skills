@@ -18,10 +18,7 @@ public class Yield implements Runnable {
     }
 
     public static void main(String[] args) {
-        Thread th1 = new Thread(new Yield());
-        Thread th2 = new Thread(new Yield());
-
-        th1.start();
-        th2.start();
+        new Thread(new Yield()).start();
+        new Thread(new Yield()).start();
     }
 }
