@@ -64,7 +64,6 @@ class Client implements Runnable {
 
     @Override
     public void run() {
-
         while (true)
             data.performOperation();
     }
