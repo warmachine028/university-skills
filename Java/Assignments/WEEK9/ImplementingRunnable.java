@@ -1,4 +1,4 @@
-// CODE 1: Write a java Program to create a thread by implementing the Runnable interface
+// CODE 2: Write a java Program to create a thread by implementing the Runnable interface
 
 public class ImplementingRunnable implements Runnable {
     @Override
