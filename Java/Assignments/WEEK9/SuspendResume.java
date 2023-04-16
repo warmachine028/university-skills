@@ -72,7 +72,7 @@ class Client implements Runnable {
 public class SuspendResume {
     public static void main(String[] args) {
         Data d = new Data();
-        new Server(d);
-        new Client(d);
+        new Thread(new Server(d)).start();
+        new Thread(new Client(d)).start();
     }
 }
