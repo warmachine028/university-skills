@@ -10,6 +10,6 @@
 | 4     | Sleep method             | [Sleep.java](./Sleep.java)                               |
 | 5     | Suspend and Resume       | [SuspendResume.java](./SuspendResume.java)               |
 | 6     | Thread Priorities        | [Priority.java](./Priority.java)                         |
-| 7     | Synchronisation Block    |                                                          |
+| 7     | Synchronisation Block    | [Synchronisation.java](Synchronisation.java)                                               |
 | 8     | Thread isAlive() method  | [ThreadAlive.java](./ThreadAlive.java)                   |
 | 9     | Thread getName() method  | [ThreadName.java](./ThreadName.java)                     |
