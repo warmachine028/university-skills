@@ -1,4 +1,4 @@
-// CODE 8: Write a Java Program to Synchronize the Threads Acting on the Same Object. The  Synchronized Block in the Program can be Executed by Only One Thread at a Time.  
+// CODE 7: Write a Java Program to Synchronize the Threads Acting on the Same Object. The  Synchronized Block in the Program can be Executed by Only One Thread at a Time.  
 
 public class Synchronisation implements Runnable {
     private int count = 0;
