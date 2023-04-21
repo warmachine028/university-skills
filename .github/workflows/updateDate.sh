@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DateSuffix() {       
+DaySuffix() {       
     case `date +%d` in    
         1|21|31) echo "st";;
         2|22)    echo "nd";;    
