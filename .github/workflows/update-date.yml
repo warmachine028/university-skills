@@ -3,7 +3,7 @@ name: Update Date
 on:
   workflow_dispatch:
   push:
-    branches: [ SEMESTER_6, main ]
+    branches: [ SEMESTER_6 ]
 
 jobs:
   publish:
@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.pat }} # You need to create your own token with commit rights
-          ref: SEMESTER_6 # The branch you want to commit to
+          ref: ${{ github.ref }} # The branch you want to commit to
           
       - name: Update Files
         run: ./.github/workflows/updateDate.sh
