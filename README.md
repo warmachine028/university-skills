@@ -1,4 +1,4 @@
-    updated on: 8th April 2023
+    updated on: 21st April 20232023
 
 # [SEMESTER 6](https://github.com/warmachine028/university-skills/tree/SEMESTER_6)
 
