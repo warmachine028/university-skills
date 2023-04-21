@@ -1,15 +1,15 @@
-name: Update Date
+name: update-date
 
 on:
   workflow_dispatch:
   push:
-    branches: [ SEMESTER_6 ] # Change this to your default branch name
+    branches: [ SEMESTER_6, main ]
 
 jobs:
   update-date:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Update Date
