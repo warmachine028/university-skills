@@ -18,7 +18,16 @@ jobs:
           ref: SEMESTER_6 # The branch you want to commit to
           
       - name: Update Files
-        run: date +"%D" > README.md && cat README.md
+        run: DateSuffix() {            |
+                case `date +%d` in     | 
+                  1|21|31) echo "st";; |
+                  2|22)    echo "nd";; |
+                  3|23)    echo "rd";; |
+                  *)       echo "th";; |
+                esac                   |
+              }                        |
+            newDate=`date "+    updated on: %d\`DaySuffix\` %B %Y"` |
+            sed -i "1s/ .* /$newDate/" README.md
       
       - name: Push changes
         uses: EndBug/add-and-commit@v9
