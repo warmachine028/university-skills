@@ -1,4 +1,4 @@
-    updated on: 8th April 2023
+hello
 
 # [SEMESTER 6](https://github.com/warmachine028/university-skills/tree/SEMESTER_6)
 
@@ -26,3 +26,4 @@
 ### Miscellaneous
 
 -   [Programs](./Java/Miscellaneous)
+<!-- 21/04/23 -->
