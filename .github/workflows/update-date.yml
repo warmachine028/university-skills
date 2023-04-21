@@ -1,4 +1,4 @@
-name: update-date
+name: "Update Date"
 
 on:
   workflow_dispatch:
