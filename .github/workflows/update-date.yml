@@ -18,7 +18,7 @@ jobs:
           ref: SEMESTER_6 # The branch you want to commit to
           
       - name: Update Files
-        run: ./updateDate.sh
+        run: ./.github/workflows/updateDate.sh
       
       - name: Push changes
         uses: EndBug/add-and-commit@v9
