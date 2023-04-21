@@ -1,3 +1,4 @@
+
 DateSuffix() {       
                 case `date +%d` in     | 
                   1|21|31) echo "st";; |
