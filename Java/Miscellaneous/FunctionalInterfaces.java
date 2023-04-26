@@ -20,7 +20,7 @@ public interface FunctionalInterfaces {
 class Main {
     public static void main(String[] args) {
         FunctionalInterfaces x = new FunctionalInterfaces() {
-            @Override
+            @OverrideMethods
             public void abstractMethod() {
                 System.out.println("This is an example of annonymous class using interface abstraction");
             }
@@ -31,11 +31,11 @@ class Main {
             }
         };
         var y = new FunctionalInterfaces() {
-            @Override
+            @OverrideMethods
             public void abstractMethod() {
             }
 
-            @Override
+            @OverrideMethods
             public void defaultMehod() {
                 System.out.println("This annonymous class has the default Method implemented");
             }

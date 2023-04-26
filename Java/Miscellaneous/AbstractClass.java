@@ -12,7 +12,7 @@ abstract class Book {
 
 // Write MyBook class here
 final class MyBook extends Book {
-    @Override
+    @OverrideMethods
     void setTitle(String s) {
         this.title = s;
     }
