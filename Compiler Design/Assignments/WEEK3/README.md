@@ -11,7 +11,6 @@
 | 5     | Valid Variable      | [📂ValidVariable](./5_ValidVariable/validVariable.y)                |
 | 6     | a^n b^n             | [📂StringGrammar](./6_StringGrammar/stringGrammar.y)                |
 | 7     | a^nb                | [📂StringGrammar2](./7_StringGrammar2/stringGrammar2.y)             |
-| 8     | Symbol Table        | [SymbolTable.c](./8_SymbolTable.c)                                  |
 
 <!--
 **Executing the entire code:
