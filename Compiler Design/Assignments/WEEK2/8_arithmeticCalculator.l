@@ -1,4 +1,7 @@
  // CODE 8: Write a lex program to implement arithmetic calculator
+%{
+	int printf(const char *format, ...);
+%}
 
 /* user defined names for regular expressions */
 integer -?[0-9]+
@@ -25,9 +28,7 @@ integer -?[0-9]+
 			break;
 		case '/':
 			result = operand1 / operand2;
-			break;
 	}
-	int printf(const char *format, ...);
 	printf("result is %ld\n", result);
 }
 

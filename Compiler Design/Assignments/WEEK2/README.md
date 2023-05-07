@@ -1,4 +1,4 @@
-# WEEK9: Lex Programming
+# WEEK2: Lex Programming
 
 ## 30th January 2023 Monday
 

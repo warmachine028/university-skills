@@ -1,19 +1,19 @@
 %{
     int printf(const char *, ...);
-    void exit(int status);    
+    void exit(int);
 %}
 
 %token NUMBER ID
-%left '+''-'
-%left '*''/'
+%left '+' '-'
+%left '*' '/'
 
 %%
 expr: expr '+' expr
     | expr '-' expr
     | expr '*' expr
     | expr '/' expr
-    | '/'NUMBER
-    | '-'ID
+    | '/' NUMBER
+    | '-' ID
     | NUMBER
     | ID
     ;
