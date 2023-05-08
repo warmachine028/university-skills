@@ -2,6 +2,6 @@
 
 ## 20th March 2023 Monday
 
-| Sl.No | OBJECTIVE | PATH    |
-| ----- | --------- | ------- |
-| 1     |           | [ ](./) |
+| Sl.No | OBJECTIVE        | PATH                                   |
+| ----- | ---------------- | -------------------------------------- |
+| 1     | Stack Allocation | [stackAllocation](./stackAllocation.c) |
