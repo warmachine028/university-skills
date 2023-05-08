@@ -4,5 +4,5 @@
 
 | Sl.No | OBJECTIVE               | PATH                             |
 | ----- | ----------------------- | -------------------------------- |
-| 1     | Conversion of BNF Rules | [SymbolTable.c](./SymbolTable.c) |
-| 1     | Abstract Syntax Tree    | [AST](./2_AST/ast.y)             |
+| 1     | Conversion of BNF Rules | [📂BNF](./1_BNF/bnf.y) |
+| 1     | Abstract Syntax Tree    | [📂AST](./2_AST/ast.y)             |
