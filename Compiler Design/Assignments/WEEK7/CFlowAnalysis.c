@@ -1,8 +1,7 @@
 // CODE: Write a C program to implement control flow analysis and Data flow Analysis.
 
 #include <string.h>
-#include <ctype.h>
-
+#include <stdio.h>
 
 struct expr
 {
@@ -12,9 +11,7 @@ struct expr
 
 int n, 
     atoi(char *),
-    sprintf(const char *, const char *, ...),
-    printf(const char *, ...),
-    scanf(const char *, ...);
+    isdigit(int);
 
 void change(int p, int q, char *res) {
     for (int i = q + 1; i < n; i++)
