@@ -17,10 +17,10 @@
 /* Rules and actions */
 %option noyywrap
 %%
-[a-zA-Z0-9]+ { words++; characters += strlen(yytext); }
-\n           { lines++; characters++;}
-[ ]          { spaces++; characters++;}
-.            { characters++; }
+[a-zA-Z0-9]+ words++, characters += strlen(yytext);
+\n           lines++, characters++;
+[ ]          spaces++, characters++;
+.            characters++; 
 %%
 
 /* Sub Routine Section */

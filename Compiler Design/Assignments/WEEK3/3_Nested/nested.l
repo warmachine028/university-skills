@@ -12,6 +12,6 @@ if return IF;
 [{] return START;
 [}] return STOP;
 . ;
-\n return 0;
+\n return NL;
 %%
 

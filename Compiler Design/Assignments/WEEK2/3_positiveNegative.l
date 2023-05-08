@@ -15,10 +15,10 @@
 /* Rules and Actions */
 %option noyywrap
 %%
-[+]?[0-9]+          { posInt++; }
--[0-9]+             { negInt++; }
-[+]?[0-9]*[.][0-9]+ { posFrac++; }
--[0-9]*[.][0-9]+    { negFrac++; }
+[+]?[0-9]+          posInt++;
+-[0-9]+             negInt++;
+[+]?[0-9]*[.][0-9]+ posFrac++;
+-[0-9]*[.][0-9]+    negFrac++;
 %%
 
 /* Coroutines and main function */

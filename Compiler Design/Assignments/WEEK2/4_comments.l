@@ -10,10 +10,10 @@
 /* Rules and Actions */
 %option noyywrap
 %%
-\n                { fprintf(yyout, "\n"); } // Print newLines
-[.]*"//".*        { comments++;}
-[.]*"/*".*"*/"    { comments++; }
-.                 { fprintf(yyout, "%c", yytext[0]); } // Print other characters
+\n                fprintf(yyout, "\n"); // Print newLines
+[.]*"//".*        comments++;
+[.]*"/*".*"*/"    comments++;
+.                 fprintf(yyout, "%c", yytext[0]); // Print other characters
 %%
 
 /* Coroutines and Main function */

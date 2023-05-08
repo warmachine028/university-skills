@@ -6,11 +6,7 @@
     extern int yylval;
 %}
 
-
 %% 
-[a-zA-Z_]* { 
-    yylval = atoi(yytext); 
-    return ID; 
-}
-[^a-zA-Z_]* { return ID; }
+[a-zA-Z_]* return yylval = atoi(yytext), ID; 
+[^a-zA-Z_]* return ID;
 %%

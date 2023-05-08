@@ -8,8 +8,8 @@
 /* Rules & Action */
 %option noyywrap
 %%
-[aeiouAEIOU]  { vowels++; }
-[a-zA-Z] { consonants++; }
+[aeiouAEIOU]  vowels++;
+[a-zA-Z]      consonants++;
 . ;
 %%
 

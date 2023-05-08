@@ -7,15 +7,13 @@
 %}
 
 /* Rules and Actions */
+digit [0-9]+
 %option noyywrap
 %%
-[0-9]+ { 
-    yylval = atoi(yytext);
-    return NUMBER;
-}
-
-[a-zA-Z]+ { return ID; }
-[\t]+ ;
-\n { return 0; }
-. { return yytext[0]; }
+{digit}     return yylval = atoi(yytext), NUMBER;
+[a-zA-Z]+   return ID;
+[ ]
+[\t]+
+\n          return 0;
+.           return yytext[0];
 %%

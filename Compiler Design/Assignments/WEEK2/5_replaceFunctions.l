@@ -13,8 +13,8 @@
 /* Rules and Options */
 %option noyywrap
 %%
-"scanf"  { fprintf(yyout, "readf"); scanfStmt++;}
-"printf" { fprintf(yyout, "writef"); printfStmt++;}
+"scanf"  fprintf(yyout, "readf"), scanfStmt++;
+"printf" fprintf(yyout, "writef"), printfStmt++;
 %%
 
 /* Coroutines and Main Function */
