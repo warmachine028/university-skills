@@ -3,7 +3,7 @@
 
 %{
     #include "y.tab.h"
-    extern yylval;
+    extern int yylval;
 %}
 
 /* Rules and Actions */
