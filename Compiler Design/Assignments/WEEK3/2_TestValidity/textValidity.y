@@ -1,5 +1,6 @@
 %{
-    int printf(const char *, ...);
+    int printf(const char *, ...),
+        yyerror(const char *);
     void exit(int);
 %}
 
@@ -25,9 +26,10 @@ int yyerror(char *s){
     exit(0);
 }
 
-void main() {
+int main() {
     printf("Enter the expression: ");
     yyparse();
     printf("\nExpression is valid\n");
     exit(0);
+    return 0;
 }
