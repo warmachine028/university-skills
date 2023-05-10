@@ -1,4 +1,4 @@
-    updated on: 08th May 2023
+    updated on: 10th May 2023
 
 # [SEMESTER 6](https://github.com/warmachine028/university-skills/tree/SEMESTER_6)
 
@@ -40,4 +40,4 @@
 -   [PHP](./Software%20Engineering/day2)
 
 
-<!-- 08/05/23 -->
+<!-- 10/05/23 -->
