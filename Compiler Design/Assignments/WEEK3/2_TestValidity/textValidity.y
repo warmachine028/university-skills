@@ -1,6 +1,7 @@
 %{
     int printf(const char *, ...),
-        yyerror(const char *);
+        yyerror(char *),
+        yylex();
     void exit(int);
 %}
 
