@@ -6,6 +6,9 @@
 .Box_Drawing_Symbols.txt
 desktop.ini
 I_Will_Need_these_Later/
+*.class
+*.out
+*.exe
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -148,4 +151,12 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# JavaScript
+node_modules
+build
 # End of https://www.toptal.com/developers/gitignore/api/python
+*.exe
+lex.yy.c
+y.tab.c
+y.tab.h
+.vscode/
