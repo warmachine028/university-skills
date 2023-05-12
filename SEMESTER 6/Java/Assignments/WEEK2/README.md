@@ -1,4 +1,4 @@
-# WEEK2: Array Accesses
+# WEEK2: Array and Constructors
 
 ## 30th January 2023 Monday
 
