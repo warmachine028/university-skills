@@ -10,17 +10,17 @@
 
 ## Java
 
-- [WEEK 1](./Java/Assignments/WEEK1)
-- [WEEK 2](./Java/Assignments/WEEK2)
-- [WEEK 3](./Java/Assignments/WEEK3)
-- [WEEK 4](./Java/Assignments/WEEK4)
-- [WEEK 5](./Java/Assignments/WEEK5)
-- [WEEK 6](./Java/Assignments/WEEK6)
-- [WEEK 7](./Java/Assignments/WEEK7)
-- [WEEK 8](./Java/Assignments/WEEK8)
-- [WEEK 9](./Java/Assignments/WEEK9)
-- [WEEK 10](./Java/Assignments/WEEK10)
-- [Mid Term 2](./Java/Assignments/Midterm2)
+- [Overview](./Java)
+- [Java Basics](./Java/Assignments/WEEK1)
+- [Arrays](./Java/Assignments/WEEK2)
+- [String and Inputs](./Java/Assignments/WEEK3)
+- [This and Constructors](./Java/Assignments/WEEK4)
+- [Overloading](./Java/Assignments/WEEK5)
+- [Super and Abstraction](./Java/Assignments/WEEK6)
+- [Final and Packages](./Java/Assignments/WEEK7)
+- [Exception Handling](./Java/Assignments/WEEK8)
+- [Multi Threading](./Java/Assignments/WEEK9)
+- [MidTerm 2](./Java/Assignments/Midterm2)
 
 ## Compiler Design
 
