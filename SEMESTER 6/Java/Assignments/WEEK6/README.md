@@ -13,4 +13,4 @@
 | 7      | Super Method                     | [SuperMethod.java](./SuperMethod.java)                   |
 | 8      | Super Method with parameter      | [SuperWithParams.java](./SuperWithParams.java)           |
 | 9      | Interface -> Player              | [UsePlayer.java](./UsePlayer.java)                       |
-| 10     | Abstract Class                   | [](./)                       |
+| 10     | Abstract Class                   | [Account](./Account.java)                                |
