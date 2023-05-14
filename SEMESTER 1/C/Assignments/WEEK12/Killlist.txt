@@ -1,0 +1,46 @@
+1.  Write the function definition of the following function declaration in C programming
+    language.Use it to swap two numbers.Here, ‘a’ and ‘b’ are formal arguments to accept
+    the addresses of numbers passed to it.
+    
+    void swap(int *a, int *b);
+
+2.  Write the function definition of the following function declaration in C programming
+    language.Use this function to calculate the value of 𝑥^𝑛 where 𝑥 and 𝑛 is user given.
+    
+    double pow(double x, int n);
+
+3.  Write the function definition of the following recursive function declaration in C
+    programming language.Use this function to calculate GCD of two user given number(a, b).
+    
+    int GCD(int a, int b);
+
+4.  Write the function definition of the following recursive function declaration in C
+    programming language.Use this function to calculate the factorial of a user given
+    number ‘n’.
+    
+    int fact(int n);
+
+5.  Write the function definition of the following function declaration in C programming
+    language.Use this function to calculate the Binomial Coefficients(
+          𝑛          𝑛!
+        ---- =   ---------   For any user given value of 𝑛 and 𝑟  .
+          𝑟       𝑟!(𝑛−𝑟)!
+    Use the previously defined function “fact()” (Question no.4) in this program.
+    
+    int ncr(int n, int r);
+
+6.  Write the function definition of the following function declaration in C programming
+    language. Use this function to calculate the length of a user given String.Here, ‘s’ is
+    formal arguments to accept the address of the string passed to it.
+    
+    int strlen(char *s);
+
+7. Write the function definition of the following function declaration in C programming
+    language.Use this function to reverse a user given string.Use the function declared &
+    defined in Question no.5. Here, ‘s’ is formal arguments to accept the address of the
+    string passed to it.
+    
+    char* strrev(char *s);
+
+8. Write a C program to check if a user given String is palindrome or not .Use the function
+    declared & defined in Question no.5.

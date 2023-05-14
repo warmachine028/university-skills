@@ -1,0 +1,22 @@
+2, 8, 11 ,13
+
+2.Using the concept of passing Structures as function arguments and returning a 
+structure from a function in C language, add two numbers.
+
+8.C program to show insertion sort for an unsorted list [60, 50, 90, 30, 70, 10]
+
+11. Given a undirected Graph of N vertices: 1 to N, and M edges, consider the 
+representation of the input graph such that that there is an edge between vertex X and 
+vertex Y, the task is to write a C program to create Adjacency Matrix of the given 
+Graph
+			0 -- 1                             V
+                        |    | > 4		           |
+                        2 -- 3                             E
+13. C program to show the dfs traversal of the graph
+Input is: 5 vertices (starting vertex is marked as 0)
+Take graph data in matrix form as follows:
+0 1 0 0 1
+1 0 1 1 1
+0 1 0 1 0
+0 1 1 0 1
+1 1 0 1 0

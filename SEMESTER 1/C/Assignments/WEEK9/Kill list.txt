@@ -1,0 +1,39 @@
+// CODE 0: Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Find the sum of the elements of the array.
+
+// CODE 1: Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the maximum and minimum of the numbers stored in the array.
+
+// CODE 2: Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the row wise maximum of the numbers stored in the array.
+
+// CODE 3: Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the column wise maximum of the numbers stored in the array.
+
+// CODE 4: Write a C program to take two user given matrix each of size 2×3. Now find the addition of the matrices.
+
+// CODE 5: Write a C program to declare a matrix of size 2×3. Read user given numbers to store in the matrix. Now find the transpose of the matrix.
+
+// CODE 6: A matrix is said to be balanced if it satisfies the following conditions:
+    i) The element at ith row and jth column is equal to the element at jth row and ith column
+    ii) All elements have same value at ith row and jth column position if i = j
+
+Write a C program to check if a user given matrix of size 3×3 is balanced or not. Example: The following matrix is a balanced matrix.
+                        [ 1 −2  3             [ 2  1  4        1 2 3 4
+                         −2  1  1               1  2  7        2 1 7 8
+                          3  1  1 ]             4  7  2 ]      3 7 1 6
+                                                               4 8 6 1
+//CODE 7: Guru Dronacharya has decided to take an archery test of two of his best students Arjuna and Karna. He has
+decided to take the test in five levels of difficulty. In each level, they have to hit three different targets. One level is said to be own by an archer if he hits a greater number of targets than his opponent in that level. At the end of the test, whoever secures maximum number of wins will be declared as the best archer. Write a C program to keep
+track of the scores and find out who is the best archer among them. The input and output of your program is as
+follows:
+
+Input: Two integer arrays ‘A’ and ‘K’ for Arjuna and Karna respectively. Each of size 5. The numbers of each array
+keep track of the number of successful hits of that level. Suppose, Arjuna hits 2 targets in first level then A[0] = 2.
+Both the arrays are user given.
+
+Output: Name of the best archer
+
+**  Example:
+    Input:
+    A = {1, 2, 2, 3, 2}
+    K = {2, 2, 1, 2, 1}
+    Output:
+    Arjuna
+    Explanation: 1st, 4th and 5th level own by Arjuna. 2nd level is Tie and 3rd level is own by Karna. Hence, Arjuna is declared best.

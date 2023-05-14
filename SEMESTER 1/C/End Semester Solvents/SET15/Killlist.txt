@@ -1,0 +1,24 @@
+1. Consider the following series to calculate the values of 
+              𝑥^2     x^3
+𝑒^x = 1 + x + ----- + ----- ....
+               2!      3!
+Write a C function that calculates the sum of the series up to ‘n’ terms where ‘n’ is user given  i.e.
+               𝑥^2     x^3          x^n
+𝑒^x = 1 + x + ----- + ----- .... + ----- .
+               2!      3!           n!
+Use the function to calculate the value of 𝑒^2 and find the error in calculation by finding out the difference with the approximate value of 𝑒^2 = 7.389056.
+
+2. Write a C program to read numbers from user until user enters ‘0’. Now find the sum of positive numbers among all input numbers. Do not use array.
+
+3. Write a C program that uses a recursive function to add first ‘n’ natural numbers where ‘n’ is user given.
+
+4. Write a C program to print the following pattern up to ‘n’ lines where the first character in first line is also an input. If input is ‘A’ then the pattern is as follows;
+A
+A B
+A B C
+…………
+If input is ‘E’ then the pattern is:
+E
+E F
+E F G
+…………

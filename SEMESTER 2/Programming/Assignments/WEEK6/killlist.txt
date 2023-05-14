@@ -1,0 +1,11 @@
+Programming for problem solving II
+
+Assignment 6 – Searching and Sorting
+
+1)	C program to perform a linear search.
+2)	C program to perform a binary search
+3)	C program to show bubble sort
+4)	C program to show insertion sort
+5)	C program to show selection sort
+6)	C program to show quick sort
+7)	C program to show merge sort.

@@ -1,0 +1,11 @@
+1. Write a C program to read a sentence input and capitalize each word of the sentence. The maximum length of the sentence is user given. Do not use “string.h”.
+
+2. Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the maximum and minimum of the numbers stored in the array.
+
+3. Write the function definition of the following function declaration in C programming language. Use this function to reverse a user given string. Here, ‘s’ is formal arguments to accept the address of the string passed to it. Do not use “string.h”. you may declare any other function if required.
+                char* strrev(char* s);
+
+4. Write a C program to print the following pattern up to ‘n’ lines.
+A
+B C
+D E F

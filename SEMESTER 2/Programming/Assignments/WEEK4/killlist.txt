@@ -1,0 +1,10 @@
+Programming for problem solving II
+Assignment 4 – Circular and Doubly Linked List
+
+1)C program to Insert in beginning of a circular linked list
+2)C program to Insert after a given element of a circular linked list
+3)C program to Insert at the end of a circular linked list
+4)C program to write a function to delete a first element from a circular Linked List
+5)C program to write a function to delete the last element from a circular Linked List
+6)C program to create and insert element in a Doubly Linked List. Perform traversal in forward and reverse direction and print the elements.
+7)C program to delete a element from a Doubly Linked List

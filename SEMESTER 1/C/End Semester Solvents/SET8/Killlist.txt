@@ -1,0 +1,11 @@
+1. Write a C program to print the following pattern up to ‘n’ lines where ‘n’ is user given:
+              1       1
+              1 2   2 1
+              1 2 3 2 1
+…………………………………………..
+
+2. Write a C program to read a user given string of any size of your choice. Consider that the user input contains only alphabets. Convert all the lowercase characters to uppercase. Note that the input may contain uppercase alphabets as well. Do not use ‘string.h’.
+
+3. Write a C program to take two user given matrix each of size 2×3. Now find the addition of the matrices. The program should print a message if the addition is not possible.
+
+4. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now check and replace all the elements of the array by the absolute value of individual numbers.

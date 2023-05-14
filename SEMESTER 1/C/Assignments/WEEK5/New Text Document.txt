@@ -1,0 +1,12 @@
+Programming for Problem Solving – I Laboratory 
+1. Write a C program to find the sum of first ‘n’ natural numbers. Consider that ‘n’ is user input. 2. Write a C program to find the sum of the digits of a user given integer.  
+3. Write a C program to find the multiples of 3,5,7 within the range [a, b] where a, b is user given  integer. 
+4. Write a C program to print the following sequence of numbers up to ‘n’ where ‘n’ is user given: 2,  4, 6, 8…. 
+5. Write a C program to find the sum of the following series up to ‘n’ terms where ‘n’ is user given:  12 + 22 + 32 + ⋯ + ��2 
+6. A number is said to be an Armstrong number if the sum of the cubes of the digits of that number  is equal to that number itself. Write a C program to check if a user given integer is Armstrong  number or not. (Example: 153 is Armstrong number. As, 13 + 53 + 33 = 153) 
+7. Write a C program to find the sum of ‘n’ user given integers. Where ‘n’ is the total number of  integers to be given as input by the user. 
+8. Write a C program to find the maximum of ‘n’ user given integers. Where ‘n’ is the total number  of integers to be given as input by the user. 
+9. Write a C program to find the factorial of a user given number ‘n’. Assume that n <= 12 
+10. Write a C program to generate Fibonacci sequence up to nth term. The Fibonacci sequence is as  follows: 0, 1, 1, 2, 3, 5, 8…. 
+11. Write a C program to find the GCD of two user given integers. 
+12. Write a C program to check if a user given number is Prime or not.

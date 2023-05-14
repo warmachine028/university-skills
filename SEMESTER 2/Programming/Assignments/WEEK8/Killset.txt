@@ -1,0 +1,17 @@
+Programming for problem solving II
+
+Assignment 8 –Graphs
+1)	Given an undirected Graph of N vertices: 1 to N, and M edges, consider the representation of the input graph (given next) such that that there is an edge between vertex X and vertex Y, the task is to write a C program to create Adjacency List of the given Graph:
+
+2)	Given a undirected Graph of N vertices: 1 to N, and M edges, consider the representation of the input graph such that that there is an edge between vertex X and vertex Y, the task is to write a C program to create Adjacency Matrix of the given Graph.
+
+3)	C program to show the bfs traversal of the graph
+Input is: 5 vertices (starting vertex is marked as 0)
+Take graph data in matrix form as follows:
+0 1 0 0 1
+1 0 1 1 1
+0 1 0 1 0
+0 1 1 0 1
+1 1 0 1 0
+
+4)	C program to show the dfs traversal of the graph. (Note: Use the same input as bfs traversal to see the difference)

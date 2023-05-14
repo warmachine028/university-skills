@@ -1,0 +1,12 @@
+1. Write a C program to read ‘n’ numbers from user into an array where ‘n’ is user given. Print the difference of the sum of positive and sum of negative numbers.
+
+2. Write the function definition of the following recursive function declaration in C programming language. Use this function to calculate the nth Fibonacci number where ‘n’ is user given.
+
+                        int fib(int n);
+
+3. A matrix (a) is said to be Upper Triangular if it satisfies the following conditions:
+     𝑎[𝑖][𝑗] = { 𝑥, 𝑖 ≤ 𝑗, 𝑥 ≠ 0
+                0, 𝑖 > 𝑗
+Write a C program to check if a user given matrix of size 3×3 is upper triangular or not.
+
+4. A string is called a palindrome when spelled forward is same if spelled backward. Write a C program to read a user given string of any size of your choice. Check if the string is Palindrome or not. Do not use ‘string.h’.

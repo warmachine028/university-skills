@@ -1,0 +1,14 @@
+Programming for problem solving II
+
+Assignment 2 � Structure Union
+
+
+1) Write a C program to create, declare and initialize structure.
+2) Write a C program to read employee�s details like�name, employee id and salary�using structure and then print the entered values.
+3) Write a C program to demonstrate example of nested structure. Create a structure�dateOfBirth�which will be declared inside the structure�student.
+4) Write a C program to create a structure�item, declare structure pointer pItem and by using�pItem, assign and access the elements of the structure.
+5) Write a C program to create a structure named�student�having two arrays�name�and�marks,�name�is the character array of 30 characters and�marks�is the integer array of 5 integers.�name�will store the name of the student and�marks�will store the marks of 5 subjects. Display the total and percentage obtained. 
+6) Write a C program to add two distances in feet and inches using structure. Final result will be printed in the form of feet and inches.
+7) Using the concept of�passing Structures as function arguments and returning a structure from a function in C language, add two numbers.
+8) Write a C program to declare, initialize an union in C programming languages.
+9) Write a C program to read item details used in party and calculate all expenses, divide expenses in all friends equally. (Using structure)

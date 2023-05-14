@@ -1,0 +1,5 @@
+//Code 0: Write a C program to take 2 integers (a,b) from user and swap their values without using 3rd variable.
+//Code 1: Write a C program to check whether the given integer is an even or an odd integer
+//Code 2: Write a C program to find the maximum of 3 user given integers
+//Code 3: Write a C program to find the sum of the digits of a user given positive integer less than 1000
+//Code 4: Write a C program to find the roots of Quadratic equation. Consider that roots are real. For the following equation ax^2 + bx + c ,as input from the user.

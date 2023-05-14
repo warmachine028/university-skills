@@ -1,0 +1,44 @@
+Programming for problem solving II
+
+Assignment 7 – Trees 
+
+1)	C program to perform insertion and deletion from a binary tree
+2)	C program to take an input tree and show inorder, preorder and post order traversals of it
+    (Take input as: int array[7] = { 27, 14, 35, 10, 19, 31, 42 };)
+3)	C program to search for a specific value present in an input binary tree (Search for the value 31 in the above input given)
+4)	C program to generate a tree from its inorder and preorder representations
+    (Input representation for inorder is: char in[] = { 'D', 'B', 'E', 'A', 'F', 'C' };
+    Input representation for preorder is: char pre[] = { 'A', 'B', 'D', 'E', 'C', 'F' };)
+5)	C program for inserting elements in a Binary Search Tree
+    [Create the following Binary Search Tree
+    	      50
+           /     \
+          30      70
+         /  \    /  \
+       20   40  60   80
+    Perform an inorder traversal to validate the result]
+6)	C program for deleting elements in a Binary Search Tree
+    [Use the above specified tree as input. Delete nodes 20, 30 and 50 from the input tree and show the inorder traversal for each of the cases]
+7)	C program to search an element in a Binary Search Tree 
+    [Use the above specified tree as input. Search for the node 70 in it]
+8)	C program to insert elements in an AVL Tree
+    [Consider the constructed AVL Tree to be:
+            30
+           /  \
+         20   40
+        /  \    \
+       10  25    50
+    Perform a pre order traversal on the constructed tree to validate the result]
+9)	C program for deleting elements in a AVL Tree
+    [The input AVL Tree is:
+
+            9
+           /  \
+          1    10
+        /  \     \
+       0    5     11
+      /    /  \
+     -1   2    6
+     Delete 10, and perform the pre order traversal on the tree before and after deletion of 10 to show the difference
+10)	C program to search an element in a AVL Tree 
+    [Use the above specified tree as input. Search for the node 11 in it]

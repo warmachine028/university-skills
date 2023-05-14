@@ -1,0 +1,12 @@
+1. A warehouse has a collection of boxes of different dimensions. The dimension of a box is defined by the height, width and depth of the box. A 2D array can be used to store the dimension of boxes. The matrix can have 3 columns. Each row of the 2D matrix can store the height, width and depth of one box respectively. Write a C program to read the dimension of 10 boxes in a 2D array. Print the dimension of the box having maximum volume.
+
+2. Write the function definition of the following recursive function declaration in C programming language. Use this function to calculate the factorial of a user given number ‘n’.
+                            int fact(int n);
+
+3. Write a C program to print all prime numbers between ‘a’ and ‘b’ where ‘a’ and ‘b’ are user given.
+
+4. Write a C program to print the following pattern up to ‘n’ lines.
+A
+B B
+C C C
+……….

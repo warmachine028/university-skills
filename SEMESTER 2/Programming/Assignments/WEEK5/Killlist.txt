@@ -1,0 +1,10 @@
+Programming for problem solving II
+Assignment 5 – Stack and Queue
+
+1)	C program to Push pop operations on stack.
+2)	C program to Reverse the characters of a string using stack
+3)	C program for Infix to postfix conversion using stack
+4)	C program for Evaluation of postfix expression using stack
+5)	C program to show the operations of a queue and print the rear and front at the end.
+6)	C program to insert 5 elements in a queue (size 5), check and display if it is full, then delete 1 element and print the remaining elements of the queue
+7)	C program to implement circular queue.

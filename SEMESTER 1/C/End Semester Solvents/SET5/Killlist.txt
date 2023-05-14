@@ -1,0 +1,8 @@
+1. A one-dimensional array of numbers contains all numbers between 1 and 100 in a jumbled order. The length of the array is 100. One of the numbers is missing and in place of that one number is repeated. Write a C program to find the missing number and the number that is repeated twice. Use a single array in your program.
+
+2. Write the function definition of the following function declaration in C programming language. Use this function to calculate the length of a user given String. Here, ‘s’ is formal arguments to accept the address of the string passed to it.
+                        int strlen(char* s);
+
+3. Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the sum of the row wise maximum of the numbers stored in the array.
+
+4. Write a C program to declare a matrix of size 2×3. Read user given numbers to store in the matrix. Now find the transpose of the matrix.

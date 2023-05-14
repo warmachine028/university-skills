@@ -1,0 +1,10 @@
+// Code 0: C program to find the area of a circle.
+// Code 1: C program to find the area of a triangle.
+// Code 2: C program to swap 2 numbers without temp variable.
+// Code 3: C program to print ASCII value of a character
+// Code 4: C program to print lowercase of an uppercased Character
+// Code 5: C program to swap 2 numbers with temp variable.
+// Code 6: C program to find the average of 2 numbers.
+// Code 7: C program to calculate simple interest.
+// Code 8: C program to find Quotient and remainder of 2 numbers.
+// Code 9: C program to find the size of various datatypes.

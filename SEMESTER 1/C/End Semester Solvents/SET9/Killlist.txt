@@ -1,0 +1,7 @@
+1. Write a C program to read ‘n’ number of strings from user and print the length of the highest length palindrome. Assume that the maximum length of any string is 10. Do not use 2D array.
+
+2. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now create another array of same size and store the elements in the reverse order.
+
+3. Write a C program to read a user given string of any size of your choice. Find the reverse of the string. Do not use ‘string.h’.
+
+4. Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Find the sum of the elements of the array

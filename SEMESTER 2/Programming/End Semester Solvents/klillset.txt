@@ -1,0 +1,96 @@
+1. For University Sports Day for the participants' score sheet, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up. You can use in build functions to solve the problem.
+The first line contains . The second line contains an array of integers each separated by a space.
+Constraints:
+-> 2<=n<=10
+-> -100<=A[i]<=100
+Final output: Print the runner-up score.
+ex: Given list is [2,4,6,6,5] . The maximum score is , second maximum is . Hence, we print as the runner-up score.
+
+2. Write a program to implement a sort technique in which the sorted array is built one entry at a time.
+
+3. Write a program to implement bubble sort. Given the numbers 7, 1, 4, 12, 67, 33, and 45. How many swaps will be performed to sort these numbers using the bubble sort.
+
+4. Write a program to implement a sort technique that works by repeatedly stepping through the list to be sorted.
+
+5. Write a program to implement a sort technique that works on the principle of divide and 
+conquer strategy.
+
+6. Write a program to define a union and a structure both having exactly the same members. 
+Using the size of operator, print the size of structure variable as well as union variable 
+and comment on the result.2
+7. Declare a structure time that has three fields—hr,min, sec. Create two variables 
+start_time and end_time. Input their values from the user. Then while start_time does not 
+reach the end_time,display GOOD DAY on the screen.
+8. Declare a structure fraction that has two fields—numerator and denominator. Create two 
+variables and compare them using function. Return 0 if the two fractions are equal, –1 if 
+the first fraction is less than the second and 1 otherwise. You may convert a fraction into 
+a floating point number for your convenience.
+9. Write a program to calculate the area of one of the geometric figures—circle, rectangle or 
+a triangle. Write a function to calculate the area.The function must receive one parameter 
+which is a structure that contains the type of figure and the size of the components 
+needed to calculate the area must be a part of a union. Note that a circle requires just one 
+component, rectangle require stwo components and a triangle requires the sizeof three 
+components to calculate the area.
+10. Write a program to interchange the value of thefirst element with the last element, second 
+element with second last element, so on and so forth of a doubly linked list.
+11. Write a program to create a linked list from an already given list. The new linked list 
+must contain every alternate element of the existing singly linked list.
+12. Write a program to delete the first element of a doubly linked list. Add this node as the 
+last node of the list.
+13. Write a program to count the number of non-zero values in a circular linked list.
+14. Write a program to multiply a polynomial with a given number.
+15. Write a program that prints the nth element from the end of a linked list in a single pass.
+16. Write a program to reverse a string using recursion.
+17. Write a program to convert the expression ―a+b-*f+‖into ―postfix expression‖.
+18. Write a program to convert the expression ―a-b+c*/d‖into ―prefix expression‖.
+19. Write a program to input two stacks and compare their contents.
+20. Write a program to check nesting of parentheses using a stack.
+21. Write a program to input two queues and compare their contents.
+22. Write a program to create a queue from a stack.
+23. Write a program to create a stack from a queue.
+24. Write a program to create a queue which permitsinsertion at any vacant location at the 
+rear end.
+25. Write a program to create a queue using arrays which permits deletion from both the 
+ends.
+26. Draw the expression tree of the given infix expression: Mention all the steps
+a*b/c+e/f*g+k-x*y 
+Convert the above expression into postfix expression and construct the binary expression 
+tree
+27. Consider the AVL tree given below and insert 18,81, 29, 15, 19, 25, 26, and 1 in it.3
+ Delete nodes 39, 63, 15, and 1 from the AVL tree formed after solving the above question.
+28. Consider the binary search tree given below.Now do the following operations:
+a. Find the result of in-order, pre-order, andpost-order traversals.
+b. Show the deletion of the root node
+c. Insert 11, 22, 33, 44, 55, 66, and 77 in the tree
+29. Consider the binary search tree given below.Now do the following operations:
+a. Find the result of in-order, pre-order, andpost-order traversals.
+b. Show the deletion of the root node
+c. Insert 11, 22, 33, 44, 55, 66, and 77 in the tree
+30. Consider the AVL tree given below and insert 18,81, 29, 15, 19, 25, 26, and 1 in it.
+ Delete nodes 39, 63, 15, and 1 from the AVL tree formed after solving the above question.
+31. Create an AVL tree using the following sequence of data: 16, 27, 9, 11, 36, 54, 81, 63, 72.
+32. Balance the AVL trees given below.
+33. Write a Python program to sort a list of tuples using Lambda function.
+34. Write a Python function that prints out the first n rows of Pascal's triangle.4
+35. Write a Python program to sort a list of dictionaries using Lambda function.
+36. Write a Python program to construct the following pattern, using a nested for loop.
+Pattern for qno.36
+37. Write a Python program to get the Fibonacci series between 0 to 50.
+38. Write a Python program which accepts a sequence of comma separated 4 digit binary numbers as its 
+input and print the numbers that are divisible by 4 in a comma separated sequence.
+39. Write a Python program to print alphabet pattern 'G'
+____________
+40. Write a Python program to calculate a dog's age in dog's years.
+41. For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 
+human years.
+42. Consider the following graph.
+Write a C program to show the breadth first search traversal of the graph, strating at any 
+vertex. Find out the possible order for visiting the nodes.5
+43. What is an adjacency matrix for a graph. Write a C program to create an adjacency 
+matrix for a simple graph.
+44. Consider below graph diagram
+Write a C program to show the depth first search traversal of the graph, starting at any 
+vertex. Find out the possible order for visiting the nodes.
+45. Write a program to create a linked list, display linked list and search an item that is present in 
+the list.
+46. Write a C program to find the 2nd highest element of a single linked list

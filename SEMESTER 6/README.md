@@ -4,23 +4,23 @@
 
 ## Table of Contents
 
-- [Java](#java)
+- [OOP](#oop)
 - [Compiler Design](#compiler-design)
 - [Software Engineering](#software-engineering)
 
-## Java
+## OOP
 
-- [Overview](./Java)
-- [Java Basics](./Java/Assignments/WEEK1)
-- [Arrays](./Java/Assignments/WEEK2)
-- [String and Inputs](./Java/Assignments/WEEK3)
-- [This and Constructors](./Java/Assignments/WEEK4)
-- [Overloading](./Java/Assignments/WEEK5)
-- [Super and Abstraction](./Java/Assignments/WEEK6)
-- [Final and Packages](./Java/Assignments/WEEK7)
-- [Exception Handling](./Java/Assignments/WEEK8)
-- [Multi Threading](./Java/Assignments/WEEK9)
-- [MidTerm 2](./Java/Assignments/Midterm2)
+- [Overview](OOP)
+- [Java Basics](OOP/Assignments/WEEK1)
+- [Arrays](OOP/Assignments/WEEK2)
+- [String and Inputs](OOP/Assignments/WEEK3)
+- [This and Constructors](OOP/Assignments/WEEK4)
+- [Overloading](OOP/Assignments/WEEK5)
+- [Super and Abstraction](OOP/Assignments/WEEK6)
+- [Final and Packages](OOP/Assignments/WEEK7)
+- [Exception Handling](OOP/Assignments/WEEK8)
+- [Multi Threading](OOP/Assignments/WEEK9)
+- [MidTerm 2](OOP/Assignments/Midterm2)
 
 ## Compiler Design
 
@@ -37,7 +37,7 @@
 
 ## Software Engineering
 
-- [PHP](./Software%20Engineering/day2)
+- [PHP](Software%20Engineering/day2)
 
 
 <!-- 10/05/23 -->

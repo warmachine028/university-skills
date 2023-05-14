@@ -1,0 +1,8 @@
+1. Write a C program to read a sentence from user and count the number of occurrences of a user given word. Assume that the maximum length of the sentence is 100 and the user given word is 10.
+
+2. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now read another number from the user and check whether that number is present in the array or not. If present, print the index position of the element. Otherwise print “Not Present”.
+
+3. Write a C program to find the sum of ‘n’ user given integers. Where ‘n’ is the total number of integers to be given as input by the user. Do not use Array.
+
+4. Write the function definition of the following recursive function declaration in C programming language. Use this function to calculate GCD of two user given number (a, b).
+                                                int GCD(int a, int b);

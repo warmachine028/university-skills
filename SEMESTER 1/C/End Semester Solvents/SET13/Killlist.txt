@@ -1,0 +1,12 @@
+1. In XYZ social media platform a user given password for a social media account is said to be valid if it contains the following:
+  I. At least one lowercase letter
+ II. At least one uppercase letter
+III. At least one digit
+
+Write a C program to read a password from user and check if the password is valid or not. The maximum length of password can be 32.
+
+2. Write a C program to find the average of ‘n’ user given numbers where ‘n’ is user given. Do not use array.
+
+3. Write a C program to print the Fibonacci sequence in reverse order starting from n th term where ‘n’ is user given. You may declare any function if required.
+
+4. Write a C program to find the minimum of squares of ‘n’ user given numbers. The user may give negative inputs as well.

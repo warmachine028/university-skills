@@ -1,0 +1,26 @@
+Programming for Problem Solving – I Laboratory
+    1. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Find the sum of the elements of the array. (Hint: Use Dynamic memory allocation)
+    
+    2. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now print the maximum and minimum of the numbers stored in the array.
+    
+    3. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now read another number from the user and check whether that number is present in the array or not. If present, print the index position of the element. Otherwise print “Not Present”
+
+    4. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now create another array of same size and store the elements in the reverse order.
+    
+    Test Data:
+    Input: 2 4 5 7 8
+    Output: 8 7 5 4 2
+
+    5. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now read another number from the user and count the number of occurrences of that number in the array.
+
+    Test Data:
+    Input:
+    Enter Array: 1 2 1 2 2 3 2 1
+    Enter Number: 2
+    Output: Number 2 has appeared 4 times
+
+    6. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now check and replace all the elements of the array by the absolute value of individual numbers.
+
+    Test Data:
+    Input: 5 -2 6 -1 0 5
+    Output: 5 2 6 1 0 5

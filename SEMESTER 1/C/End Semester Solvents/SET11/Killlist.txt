@@ -1,0 +1,12 @@
+1. Write a C program to read ‘n’ numbers from user into an array (𝑥) where ‘n’ is user given. Find the average (𝑎) of the numbers. Use the average value to find the variance of the numbers using the following formula:
+
+                                     1  𝑛
+                            𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒 =-- ∑(𝑥𝑖 − 𝑎)^2
+                                     𝑛 𝑖=1
+
+
+2. Write a C program to take two one-dimensional integer array of size ‘n’ as input from user where ‘n’ is user given. Read user given numbers to store in the arrays. Declare another array of same size (n) and store the element wise addition of previously taken array into the new one.
+
+3. A number is said to be an Armstrong number if the sum of the cubes of the digits of that number is equal to that number itself. Write a C program to print all Armstrong numbers within a user given limit (a, b). If no Armstrong number is found, then print “No Armstrong Number Found”.
+
+4. Write a C program to read a date of birth from user in the form “dd-mm-yyyy”. Calculate the age of that person as on 01.01.2021 in the same format. Consider that 30 days a month and 365 days a year.

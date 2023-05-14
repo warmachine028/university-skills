@@ -1,0 +1,11 @@
+1. Write a C program to count the number of vowels in a user given sentence. The maximum length of the sentence is given by user. Also assume that the sentence may contain both uppercase and lowercase letters.
+
+2. Write the function definition of the following function declaration in C programming language. Use this function to calculate the Binomial Coefficients 
+     𝑛         𝑛!
+   (   ) = --------- . For any user given value of 𝑛 and 𝑟.
+     𝑟      𝑟!(𝑛-𝑟)!
+                int ncr(int n, int r);
+
+3. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now read another number from the user and count the number of occurrences of that number in the array.
+
+4. Write a C program to generate Fibonacci sequence up to nth term. The Fibonacci sequence is as follows: 0, 1, 1, 2, 3, 5, 8….

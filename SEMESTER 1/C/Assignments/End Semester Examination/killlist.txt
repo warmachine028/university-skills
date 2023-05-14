@@ -1,0 +1,11 @@
+Set - 12
+0. Write a C program to read ‘n’ user given sentences and find the total number of words in all user given sentences. Assume that the maximum length of each sentence 100.
+
+1. Write a C program to concatenate two user given strings. Consider that the maximum length input strings is ‘n’ where ‘n’ is user given. Do not use “string.h”
+
+2. Write a C program to read ‘n’ numbers from user into an array where ‘n’ is user given. Now, input may contain numbers repeated multiple times. Find the unique numbers and store it in a separate array.
+
+3. Write a C program to print the following pattern up to ‘n’ lines.
+A
+A B
+A B C

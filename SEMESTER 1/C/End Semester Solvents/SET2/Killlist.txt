@@ -1,0 +1,10 @@
+1. An English word is said to be perfect if the sum of the ASCII values of the characters is a prime number. Write a C program to check if a user given word is perfect or not. Print “Perfect” for perfect words and “Not Perfect” for other words. Assume that the maximum possible word length is 10. Do not use “ctype.h”.
+
+2. Write a C program to read a user given string of length ‘n’ where ‘n’ is user given. Find the total number of vowels in the string.
+
+3. Write a C program to declare a one-dimensional integer array of size ‘n’ where ‘n’ is user given. Read user given numbers to store in the array. Now print the maximum and minimum of the numbers stored in the array.
+
+4. Write the function definition of the following function declaration in C programming language. Use this function to calculate the value of 𝑥
+𝑛 where 𝑥 and 𝑛 is user
+given.
+double pow(double x, int n);

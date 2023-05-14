@@ -1,0 +1,9 @@
+1. Write a C program to print the following pattern up to ‘n’ lines where ‘n’ is user
+given:
+    A
+  A B A
+A B C B A
+…………………………………………..
+2. Write a C program to print all prime numbers up to ‘n’ where ‘n’ is user given.
+3. Write a C program to declare a two-dimensional integer array of size 2×3. Read user given numbers to store in the array. Now print the sum of the column wise maximum of the numbers stored in the array.
+4. Write a C program to read a user given string of length ‘n’ where ‘n’ is user given. Find the length of the string. Do not use ‘string.h’.
