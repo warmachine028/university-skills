@@ -1,4 +1,4 @@
-    updated on: 12th May 2023
+    updated on: 14th May 2023
     
 # [UNIVERSITY SKILLS](https://github.com/warmachine028/university-skills/tree/main)
 
@@ -18,4 +18,4 @@
 - [SEMESTER 5](SEMESTER%205)
 - [SEMESTER 6](SEMESTER%206)
 
-<!-- 12/05/23 -->
+<!-- 14/05/23 -->
