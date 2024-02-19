@@ -3,7 +3,7 @@
 ## Greedy - 30th March 2022
 
 1. [Prim's Algorithm](1_Prims_MST.c)  
-   You are given n # of 2D matrices to multiply. Find out the minimum # of multiplications you need to perform.
+   Given a weighted undirected graph. Find the sum of weights of edges of a Minimum Spanning Tree using Prims Algorithm.
 
 2. [Kruskal's Algorithm](2_Kruskal_MST.c)  
    Given a weighted undirected graph. Find the sum of weights of edges of a Minimum Spanning Tree.
